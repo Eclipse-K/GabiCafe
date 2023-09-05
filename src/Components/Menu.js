@@ -10,33 +10,33 @@ import "./Menu.css";
 function Menu() {
   return (
     <div>
-      <div className="grid-box">
-        <Link className="grid-info" to="/EspressoMenu">
+      <div className="grid-container">
+        <Link className="grid-box" to="/EspressoMenu">
           <img src={EspressoMenu} alt="EspressoMenu" />
           <div className="menu-title">- Espresso Menu -</div>
         </Link>
 
-        <Link className="grid-info" to="/Latte">
+        <Link className="grid-box" to="/Latte">
           <img src={LatteMenu} alt="LatteMenu" />
           <div className="menu-title">- Latte -</div>
         </Link>
 
-        <Link className="grid-info" to="/beverage">
+        <Link className="grid-box" to="/beverage">
           <img src={BeverageMenu} alt="BeverageMenu" />
           <div className="menu-title">- Beverage -</div>
         </Link>
 
-        <Link className="grid-info" to="/blended">
+        <Link className="grid-box" to="/blended">
           <img src={BlendedMenu} alt="BlendedMenu" />
           <div className="menu-title">- Blended -</div>
         </Link>
 
-        <Link className="grid-info" to="/Tea">
+        <Link className="grid-box" to="/Tea">
           <img src={TeaMenu} alt="TeaMenu" />
           <div className="menu-title">- Tea -</div>
         </Link>
 
-        <Link className="grid-info" to="/Smoothie">
+        <Link className="grid-box" to="/Smoothie">
           <img src={SmoothieMenu} alt="SmoothieMenu" />
           <div className="menu-title">- Smoothie -</div>
         </Link>

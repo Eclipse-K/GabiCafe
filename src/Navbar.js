@@ -3,11 +3,11 @@ import Logo from "./Images/Logo.png";
 
 function Navbar() {
   return (
-    <nav class="navbar bg-body-tertiary fixed-top" data-bs-theme="dark">
-      <div class="container-fluid">
+    <nav className="navbar bg-body-tertiary fixed-top" data-bs-theme="dark">
+      <div className="container-fluid">
         <Link to="/">
           <img
-            class="navbar-brand"
+            className="navbar-brand"
             src={Logo}
             alt="Logo"
             width="100px"
@@ -16,51 +16,51 @@ function Navbar() {
         </Link>
 
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          class="offcanvas offcanvas-end"
-          tabindex="-1"
+          className="offcanvas offcanvas-end"
+          tabIndex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
         >
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+          <div className="offcanvas-header">
+            <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
               Gabi
             </h5>
             <button
               type="button"
-              class="btn-close"
+              className="btn-close"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
             ></button>
           </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <Link to="/Menu" class="nav-link" aria-current="page">
+          <div className="offcanvas-body">
+            <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li className="nav-item">
+                <Link to="/Menu" className="nav-link" aria-current="page">
                   Information
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link to="/Menu" class="nav-link">
+              <li className="nav-item">
+                <Link to="/Menu" className="nav-link">
                   Menu
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link to="/Products" class="nav-link">
+              <li className="nav-item">
+                <Link to="/Products" className="nav-link">
                   Products
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link to="/Login" class="nav-link">
+              <li className="nav-item">
+                <Link to="/Login" className="nav-link">
                   Login
                 </Link>
               </li>

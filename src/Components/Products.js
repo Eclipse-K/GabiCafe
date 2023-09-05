@@ -20,17 +20,17 @@ import CoffeeCaddies from "../Images/Coffee_Caddies.png";
 
 function Products() {
   return (
-    <div class="menus">
+    <div className="menus">
       <h3>- Products -</h3>
 
-      <div class="product_list">
+      <div className="product_list">
         <ul>
           <li
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
-            <div class="img">
+            <div className="img">
               <img src={Dripper} alt="드리퍼" width="400px" height="300px" />
             </div>
           </li>
@@ -40,7 +40,7 @@ function Products() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
-            <div class="img">
+            <div className="img">
               <img
                 src={CoffeeServer}
                 alt="커피서버"
@@ -55,7 +55,7 @@ function Products() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
-            <div class="img">
+            <div className="img">
               <img
                 src={EspressoMachine}
                 alt="반자동에스프레소머신"
@@ -70,7 +70,7 @@ function Products() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
-            <div class="img">
+            <div className="img">
               <img
                 src={EspressoMaker}
                 alt="수동에스프레소머신"
@@ -85,7 +85,7 @@ function Products() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
-            <div class="img">
+            <div className="img">
               <img
                 src={FrenchPress}
                 alt="프렌치프레스"
@@ -100,7 +100,7 @@ function Products() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
-            <div class="img">
+            <div className="img">
               <img src={MocaPot} alt="모카포트" width="300px" height="400px" />
             </div>
           </li>
@@ -110,7 +110,7 @@ function Products() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
-            <div class="img">
+            <div className="img">
               <img
                 src={DutchMaker}
                 alt="더치메이커"
@@ -125,7 +125,7 @@ function Products() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
-            <div class="img">
+            <div className="img">
               <img
                 src={CoffeeGrinder}
                 alt="커피그라인더"
@@ -140,7 +140,7 @@ function Products() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
-            <div class="img">
+            <div className="img">
               <img src={Siphon} alt="사이폰" width="300px" height="400px" />
             </div>
           </li>
@@ -150,7 +150,7 @@ function Products() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
-            <div class="img">
+            <div className="img">
               <img
                 src={CoffeeCapsuleMachine}
                 alt="캡슐머신"
@@ -165,7 +165,7 @@ function Products() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
-            <div class="img">
+            <div className="img">
               <img
                 src={MilkFrother}
                 alt="우유거품기"
@@ -180,7 +180,7 @@ function Products() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
-            <div class="img">
+            <div className="img">
               <img
                 src={SteamingPitcher}
                 alt="스팀피처"
@@ -195,7 +195,7 @@ function Products() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
-            <div class="img">
+            <div className="img">
               <img
                 src={BellCreamer}
                 alt="벨크리머"
@@ -210,7 +210,7 @@ function Products() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
-            <div class="img">
+            <div className="img">
               <img src={DripPot} alt="드립포트" width="300px" height="300px" />
             </div>
           </li>
@@ -220,7 +220,7 @@ function Products() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
-            <div class="img">
+            <div className="img">
               <img
                 src={PaperCoffeeFilter}
                 alt="종이커피필터"
@@ -235,7 +235,7 @@ function Products() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
-            <div class="img">
+            <div className="img">
               <img src={CoffeeTamper} alt="탬퍼" width="300px" height="250px" />
             </div>
           </li>
@@ -245,7 +245,7 @@ function Products() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
-            <div class="img">
+            <div className="img">
               <img
                 src={CoffeeDistributor}
                 alt="디스트리뷰터"
@@ -260,7 +260,7 @@ function Products() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
-            <div class="img">
+            <div className="img">
               <img
                 src={VietnamesePhinDripper}
                 alt="베트남식 드리퍼"
@@ -275,7 +275,7 @@ function Products() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
-            <div class="img">
+            <div className="img">
               <img
                 src={CoffeeCaddies}
                 alt="커피통"
