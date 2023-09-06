@@ -13,7 +13,6 @@ function Menu() {
     <div>
       <Navbar />
       <div className="grid-container">
-        <div className="area"></div>
         <Link className="grid-box" to="/EspressoMenu">
           <img src={EspressoMenu} alt="EspressoMenu" />
           <div className="menu-title">- Espresso Menu -</div>
