@@ -6,10 +6,12 @@ import BlendedMenu from "../Images/Blended.png";
 import TeaMenu from "../Images/Tea.png";
 import SmoothieMenu from "../Images/Smoothie.png";
 import "./Menu.css";
+import Navbar from "../Navbar";
 
 function Menu() {
   return (
     <div>
+      <Navbar />
       <div className="grid-container">
         <div className="area"></div>
         <Link className="grid-box" to="/EspressoMenu">

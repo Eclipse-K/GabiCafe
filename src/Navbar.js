@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import Logo from "./Images/Logo.png";
-import "./Navbar.css";
 
 function Navbar() {
   return (
@@ -71,39 +70,6 @@ function Navbar() {
           </div>
         </div>
       </nav>
-
-      <div
-        id="carouselExampleFade"
-        class="carousel slide carousel-fade"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item item1 active d-block w-100"></div>
-          <div class="carousel-item item2 d-block w-100"></div>
-          <div class="carousel-item item3 d-block w-100"></div>
-          <div class="carousel-item item4 d-block w-100"></div>
-          <div class="carousel-item item5 d-block w-100"></div>
-          <div class="carousel-item item6 d-block w-100"></div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleFade"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleFade"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
     </div>
   );
 }

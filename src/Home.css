@@ -1,5 +1,13 @@
+#carouselExampleFade {
+  width: 100%;
+}
+
+.carousel {
+  position: fixed;
+}
+
 .carousel-item {
-  height: 650px;
+  height: 700px;
   background-size: cover;
 }
 
@@ -9,26 +17,26 @@
 }
 
 .carousel-item.item2 {
-  background-image: url(./Images/Deoksugung_Seokjojeon.jpeg);
+  background-image: url(./Images/GyeonghoeruPavilion.png);
   background-position: center center;
 }
 
 .carousel-item.item3 {
-  background-image: url(./Images/DeoksugungJeonggwanheon.jpeg);
+  background-image: url(./Images/Gwanghwamun.png);
   background-position: center center;
 }
 
 .carousel-item.item4 {
   background-image: url(./Images/BuyongjeongPavilion.png);
-  background-position: center center;
+  background-position: center right;
 }
 
 .carousel-item.item5 {
-  background-image: url(./Images/Gwanghwamun.png);
+  background-image: url(./Images/Deoksugung_Seokjojeon.jpeg);
   background-position: center center;
 }
 
 .carousel-item.item6 {
-  background-image: url(./Images/GyeonghoeruPavilion.png);
+  background-image: url(./Images/DeoksugungJeonggwanheon.jpeg);
   background-position: center center;
 }
