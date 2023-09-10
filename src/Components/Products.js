@@ -33,10 +33,9 @@ function Products() {
         <div className="Products-list">
           <div
             className="Products-box"
-            data-aos="fade-left"
-            data-aos-anchor="#example-anchor"
-            data-aos-offset="500"
-            data-aos-duration="1400"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
           >
             <img className="Products-img" src={Dripper} alt="드리퍼" />
             <p className="Products-content">드리퍼</p>
