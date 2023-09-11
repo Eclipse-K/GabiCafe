@@ -19,7 +19,7 @@ const StyledButton = styled(LoginButton)`
   }
 
   &:hover {
-    background-color: #fee500;
+    background-color: #f5f401;
   }
 `;
 

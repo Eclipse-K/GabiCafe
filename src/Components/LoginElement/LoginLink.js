@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const LoginLink = styled(Link)`
-  color: #6500c3;
+  color: #08692a;
   font-weight: bold;
 `;
 

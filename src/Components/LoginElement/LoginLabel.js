@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const LoginLabel = styled.label`
-  color: #e1c6f7;
+  color: #2aa153;
 `;
 
 export default LoginLabel;

@@ -18,7 +18,7 @@ const LoginInput = styled.input`
 `}
 
   &::placeholder {
-    color: #c4c5cd;
+    color: #56c17b;
   }
 `;
 

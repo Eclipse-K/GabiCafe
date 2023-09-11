@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const LoginButton = styled.button`
-  background-color: #6500c3;
+  background-color: #08692a;
   border: none;
   border-radius: ${({ round }) => (round ? `9999px` : `8px`)};
   color: #ffffff;
@@ -11,7 +11,7 @@ const LoginButton = styled.button`
 
   &:hover,
   &:active {
-    background-color: #7760b4;
+    background-color: #56c17b;
   }
 `;
 
