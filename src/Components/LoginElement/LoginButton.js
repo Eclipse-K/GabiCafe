@@ -1,6 +1,11 @@
 import styled from "styled-components";
+import LoginSpinner from "./LoginSpinner";
 
-const LoginButton = styled.button`
+function BaseButton({ loading, children, ...props }) {
+  return <button {...props}>{loading ? <LoginSpinner /> : children}</button>;
+}
+
+const LoginButton = styled(BaseButton)`
   background-color: #08692a;
   border: none;
   border-radius: ${({ round }) => (round ? `9999px` : `8px`)};
