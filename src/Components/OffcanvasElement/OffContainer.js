@@ -4,7 +4,7 @@ const OffContainer = styled.div`
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 0;
+  top: 13%;
   right: 0;
   width: 200px;
   height: 100%;
