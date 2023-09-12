@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 const OffContainer = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
   position: absolute;
   top: 0;
   right: 0;
@@ -12,6 +11,7 @@ const OffContainer = styled.div`
   padding: 0;
   margin: 0;
   background-color: black;
+  z-index: 3;
 `;
 
 export default OffContainer;

@@ -31,8 +31,8 @@ function Navbar() {
             <AiFillAppstore />
           </button>
         )}
-        {isCollapsed && <OffcanvasMenu closeOffcanvas={closeOffcanvas} />}
       </div>
+      {isCollapsed && <OffcanvasMenu closeOffcanvas={closeOffcanvas} />}
     </nav>
   );
 }
