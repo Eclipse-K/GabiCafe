@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Logo from "./Images/Logo.png";
-import { AiFillAppstore } from "react-icons/ai";
+import { BiMenu } from "react-icons/bi";
 import "./Navbar.css";
 import { useState } from "react";
 import OffcanvasMenu from "./OffcanvasMenu";
@@ -24,11 +24,11 @@ function Navbar() {
       <div className={`navbar-offcanvas ${isCollapsed ? "open" : ""}`}>
         {isCollapsed ? (
           <button className="offcanvas-button rotated" onClick={closeOffcanvas}>
-            <AiFillAppstore />
+            <BiMenu />
           </button>
         ) : (
           <button className="offcanvas-button" onClick={toggleCollapse}>
-            <AiFillAppstore />
+            <BiMenu />
           </button>
         )}
       </div>
