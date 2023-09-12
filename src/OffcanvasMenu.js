@@ -1,4 +1,3 @@
-import { AiOutlineRight } from "react-icons/ai";
 import OffContainer from "./Components/OffcanvasElement/OffContainer";
 import OffLink from "./Components/OffcanvasElement/OffLink";
 
@@ -9,10 +8,6 @@ function OffcanvasMenu({ closeOffcanvas }) {
 
   return (
     <OffContainer>
-      <OffLink to="/">
-        <AiOutlineRight className="OffIcon" onClick={offcanvasClick} />
-      </OffLink>
-
       <OffLink onClick={offcanvasClick}>
         <div className="OffMenu">Information</div>
       </OffLink>

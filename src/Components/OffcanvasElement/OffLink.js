@@ -4,6 +4,7 @@ import styled from "styled-components";
 const OffLink = styled(Link)`
   display: flex;
   padding: 10px;
+  margin-top: 15px;
   width: 100%;
   height: 20px;
   background-color: black;
@@ -14,11 +15,6 @@ const OffLink = styled(Link)`
 
   &:hover {
     background-color: rgba(0, 0, 0, 0.5);
-  }
-
-  .OffIcon {
-    width: 20px;
-    height: 20px;
   }
 
   .OffMenu {
