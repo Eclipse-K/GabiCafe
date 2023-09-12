@@ -18,16 +18,14 @@ import CoffeeDistributor from "../Images/Coffee_Distributor.png";
 import VietnamesePhinDripper from "../Images/Vietnamese_Phin_Dripper.png";
 import CoffeeCaddies from "../Images/Coffee_Caddies.png";
 import Navbar from "../Navbar";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 import "./Products.css";
 
 function Products() {
-  AOS.init();
   return (
     <div>
       <Navbar />
-      <div className="menus">
+      <div className="Products-menus">
         <h3>- Products -</h3>
 
         <div className="Products-list">
