@@ -36,6 +36,7 @@ function Products() {
 
           <div className="Products-box">
             <img className="Products-img" src={CoffeeServer} alt="커피서버" />
+            <p className="Products-content">커피서버</p>
           </div>
 
           <div className="Products-box">
@@ -44,6 +45,7 @@ function Products() {
               src={EspressoMachine}
               alt="반자동에스프레소머신"
             />
+            <p className="Products-content">반자동에스프레소머신</p>
           </div>
 
           <div className="Products-box">
@@ -52,6 +54,7 @@ function Products() {
               src={EspressoMaker}
               alt="수동에스프레소머신"
             />
+            <p className="Products-content">수동에스프레소머신</p>
           </div>
 
           <div className="Products-box">
@@ -60,14 +63,17 @@ function Products() {
               src={FrenchPress}
               alt="프렌치프레스"
             />
+            <p className="Products-content">프렌치프레스</p>
           </div>
 
           <div className="Products-box">
             <img className="Products-img" src={MocaPot} alt="모카포트" />
+            <p className="Products-content">모카포트</p>
           </div>
 
           <div className="Products-box">
             <img className="Products-img" src={DutchMaker} alt="더치메이커" />
+            <p className="Products-content">더치메이커</p>
           </div>
 
           <div className="Products-box">
@@ -76,10 +82,12 @@ function Products() {
               src={CoffeeGrinder}
               alt="커피그라인더"
             />
+            <p className="Products-content">커피그라인더</p>
           </div>
 
           <div className="Products-box">
             <img className="Products-img" src={Siphon} alt="사이폰" />
+            <p className="Products-content">사이폰</p>
           </div>
 
           <div className="Products-box">
@@ -88,10 +96,12 @@ function Products() {
               src={CoffeeCapsuleMachine}
               alt="캡슐머신"
             />
+            <p className="Products-content">캡슐머신</p>
           </div>
 
           <div className="Products-box">
             <img className="Products-img" src={MilkFrother} alt="우유거품기" />
+            <p className="Products-content">우유거품기</p>
           </div>
 
           <div className="Products-box">
@@ -100,14 +110,17 @@ function Products() {
               src={SteamingPitcher}
               alt="스팀피처"
             />
+            <p className="Products-content">스팀피처</p>
           </div>
 
           <div className="Products-box">
             <img className="Products-img" src={BellCreamer} alt="벨크리머" />
+            <p className="Products-content">벨크리머</p>
           </div>
 
           <div className="Products-box">
             <img className="Products-img" src={DripPot} alt="드립포트" />
+            <p className="Products-content">드립포트</p>
           </div>
 
           <div className="Products-box">
@@ -116,6 +129,7 @@ function Products() {
               src={PaperCoffeeFilter}
               alt="종이커피필터"
             />
+            <p className="Products-content">종이커피필터</p>
           </div>
 
           <div className="Products-box">
@@ -126,6 +140,7 @@ function Products() {
               width="300px"
               height="250px"
             />
+            <p className="Products-content">탬퍼</p>
           </div>
 
           <div className="Products-box">
@@ -134,6 +149,7 @@ function Products() {
               src={CoffeeDistributor}
               alt="디스트리뷰터"
             />
+            <p className="Products-content">디스트리뷰터</p>
           </div>
 
           <div className="Products-box">
@@ -142,10 +158,16 @@ function Products() {
               src={VietnamesePhinDripper}
               alt="베트남식 드리퍼"
             />
+            <p className="Products-content">베트남식 드리퍼</p>
           </div>
 
           <div className="Products-box">
-            <img className="Products-img" src={CoffeeCaddies} alt="커피통" />
+            <img
+              className="Products-img"
+              src={CoffeeCaddies}
+              alt="커피찌꺼기통"
+            />
+            <p className="Products-content">커피찌꺼기통</p>
           </div>
         </div>
       </div>
