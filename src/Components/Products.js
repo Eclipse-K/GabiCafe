@@ -29,31 +29,16 @@ function Products() {
         <h3>- Products -</h3>
 
         <div className="Products-list">
-          <div
-            className="Products-box"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
+          <div className="Products-box">
             <img className="Products-img" src={Dripper} alt="드리퍼" />
             <p className="Products-content">드리퍼</p>
           </div>
 
-          <div
-            className="Products-box"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
+          <div className="Products-box">
             <img className="Products-img" src={CoffeeServer} alt="커피서버" />
           </div>
 
-          <div
-            className="Products-box"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
+          <div className="Products-box">
             <img
               className="Products-img"
               src={EspressoMachine}
@@ -61,12 +46,7 @@ function Products() {
             />
           </div>
 
-          <div
-            className="Products-box"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
+          <div className="Products-box">
             <img
               className="Products-img"
               src={EspressoMaker}
@@ -74,12 +54,7 @@ function Products() {
             />
           </div>
 
-          <div
-            className="Products-box"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
+          <div className="Products-box">
             <img
               className="Products-img"
               src={FrenchPress}
@@ -87,30 +62,15 @@ function Products() {
             />
           </div>
 
-          <div
-            className="Products-box"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
+          <div className="Products-box">
             <img className="Products-img" src={MocaPot} alt="모카포트" />
           </div>
 
-          <div
-            className="Products-box"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
+          <div className="Products-box">
             <img className="Products-img" src={DutchMaker} alt="더치메이커" />
           </div>
 
-          <div
-            className="Products-box"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
+          <div className="Products-box">
             <img
               className="Products-img"
               src={CoffeeGrinder}
@@ -118,21 +78,11 @@ function Products() {
             />
           </div>
 
-          <div
-            className="Products-box"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
+          <div className="Products-box">
             <img className="Products-img" src={Siphon} alt="사이폰" />
           </div>
 
-          <div
-            className="Products-box"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
+          <div className="Products-box">
             <img
               className="Products-img"
               src={CoffeeCapsuleMachine}
@@ -140,21 +90,11 @@ function Products() {
             />
           </div>
 
-          <div
-            className="Products-box"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
+          <div className="Products-box">
             <img className="Products-img" src={MilkFrother} alt="우유거품기" />
           </div>
 
-          <div
-            className="Products-box"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
+          <div className="Products-box">
             <img
               className="Products-img"
               src={SteamingPitcher}
@@ -162,30 +102,15 @@ function Products() {
             />
           </div>
 
-          <div
-            className="Products-box"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
+          <div className="Products-box">
             <img className="Products-img" src={BellCreamer} alt="벨크리머" />
           </div>
 
-          <div
-            className="Products-box"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
+          <div className="Products-box">
             <img className="Products-img" src={DripPot} alt="드립포트" />
           </div>
 
-          <div
-            className="Products-box"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
+          <div className="Products-box">
             <img
               className="Products-img"
               src={PaperCoffeeFilter}
@@ -193,12 +118,7 @@ function Products() {
             />
           </div>
 
-          <div
-            className="Products-box"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
+          <div className="Products-box">
             <img
               className="Products-img"
               src={CoffeeTamper}
@@ -208,12 +128,7 @@ function Products() {
             />
           </div>
 
-          <div
-            className="Products-box"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
+          <div className="Products-box">
             <img
               className="Products-img"
               src={CoffeeDistributor}
@@ -221,12 +136,7 @@ function Products() {
             />
           </div>
 
-          <div
-            className="Products-box"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
+          <div className="Products-box">
             <img
               className="Products-img"
               src={VietnamesePhinDripper}
@@ -234,12 +144,7 @@ function Products() {
             />
           </div>
 
-          <div
-            className="Products-box"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
+          <div className="Products-box">
             <img className="Products-img" src={CoffeeCaddies} alt="커피통" />
           </div>
         </div>

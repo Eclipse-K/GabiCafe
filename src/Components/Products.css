@@ -1,35 +1,37 @@
 .Products-menus {
   overflow: visible;
+  background-color: white;
+  width: 80%;
+  transform: translate(10%, 0);
+}
+
+.Products-menus h3 {
+  color: black;
+  padding-top: 30px;
 }
 
 .Products-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 90px;
+  display: inline-block;
+  margin-top: 10px;
 }
 
 .Products-box {
-  display: flex;
-  width: 300px;
-  height: 400px;
+  display: inline-block;
+  width: 200px;
+  height: 240px;
   border: 2px solid rgb(7, 7, 7);
-  background-color: antiquewhite;
+  background-color: black;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
 }
 
 .Products-img {
-  width: 296px;
-  height: 300px;
-  border: 1px solid black;
+  width: 196px;
+  height: 200px;
 }
 
 .Products-content {
-  width: 300px;
-  height: 300px;
-  font-size: 20px;
-  position: absolute;
-  padding-top: 310px;
+  color: white;
+  margin: 0;
 }
