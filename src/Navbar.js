@@ -4,7 +4,7 @@ import { FiAlignJustify, FiX } from "react-icons/fi";
 import "./Navbar.css";
 import { useState } from "react";
 import OffcanvasMenu from "./OffcanvasMenu";
-import NavContainer from "./NavbarElement/NavContainer";
+import NavContainer from "./Components/NavbarElement/NavContainer";
 import useSystemTheme from "./Components/useSystemTheme";
 import { ThemeProvider } from "styled-components";
 
@@ -31,6 +31,7 @@ function Navbar() {
 
   //테마로 색상 변경
   const systemTheme = useSystemTheme();
+  console.log(systemTheme);
 
   return (
     <ThemeProvider theme={systemTheme === "dark" ? DarkMode : LightMode}>

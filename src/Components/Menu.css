@@ -4,16 +4,10 @@
   width: 90%;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  top: 30%;
+  position: relative;
+  padding-bottom: 50px;
   left: 50%;
-  transform: translate(-50%, -10%);
-}
-
-@media all and (max-width: 768px) {
-  .grid-container {
-    top: 40%;
-  }
+  transform: translate(-50%, 0);
 }
 
 .grid-box {

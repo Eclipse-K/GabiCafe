@@ -1,5 +1,7 @@
+import OffCloseLink from "./Components/OffcanvasElement/OffCloseLink";
 import OffContainer from "./Components/OffcanvasElement/OffContainer";
 import OffLink from "./Components/OffcanvasElement/OffLink";
+import { FiX } from "react-icons/fi";
 
 function OffcanvasMenu({ closeOffcanvas }) {
   const offcanvasClick = () => {
@@ -8,6 +10,9 @@ function OffcanvasMenu({ closeOffcanvas }) {
 
   return (
     <OffContainer>
+      <OffCloseLink onClick={offcanvasClick}>
+        <FiX />
+      </OffCloseLink>
       <OffLink onClick={offcanvasClick}>
         <div className="OffMenu">Information</div>
       </OffLink>
