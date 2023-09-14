@@ -15,6 +15,7 @@ const OffCloseLink = styled(Link)`
     right: 0;
     width: 3rem;
     height: 3rem;
+    transform: rotate(-180deg);
   }
 `;
 
