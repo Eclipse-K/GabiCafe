@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Logo from "./Images/Logo.png";
-import { FiAlignJustify, FiX } from "react-icons/fi";
+import { FiX } from "react-icons/fi";
 import "./Navbar.css";
 import { useState } from "react";
 import OffcanvasMenu from "./OffcanvasMenu";
@@ -20,6 +20,7 @@ const DarkMode = {
 
 function Navbar() {
   const [isCollapsed, setIsCollapsed] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
 
   const toggleCollapse = () => {
     setIsCollapsed((prevCollapsed) => !prevCollapsed);
@@ -48,8 +49,15 @@ function Navbar() {
               <FiX />
             </button>
           ) : (
-            <button className="offcanvas-button" onClick={toggleCollapse}>
-              <FiAlignJustify />
+            <button
+              className={`offcanvas-button ${isHovered ? "hovered" : ""}`}
+              onClick={toggleCollapse}
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
+            >
+              <span className={`line ${isHovered ? "hovered" : ""}`}></span>
+              <span className={`line ${isHovered ? "hovered" : ""}`}></span>
+              <span className={`line ${isHovered ? "hovered" : ""}`}></span>
             </button>
           )}
         </div>
