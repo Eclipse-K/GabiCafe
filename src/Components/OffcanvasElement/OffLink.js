@@ -13,12 +13,12 @@ const OffLink = styled(Link)`
   text-decoration: none;
   transition: background-color 0.3s;
 
-  &:hover {
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-
   .OffMenu {
     margin-left: 30px;
+  }
+
+  .OffMenu:hover {
+    color: #c2c2c1;
   }
 `;
 

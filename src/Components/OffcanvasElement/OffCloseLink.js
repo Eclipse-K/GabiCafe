@@ -8,14 +8,20 @@ const OffCloseLink = styled(Link)`
   width: 90%;
   height: 50px;
   justify-content: right;
+  align-items: center;
   background-color: black;
   color: white;
 
-  svg {
-    right: 0;
-    width: 3rem;
-    height: 3rem;
-    transform: rotate(-180deg);
+  .OffIcon {
+    width: 40px;
+    height: 40px;
+    transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
+  }
+
+  .OffIcon:hover {
+    width: 50px;
+    height: 50px;
+    color: #c2c2c1;
   }
 `;
 
