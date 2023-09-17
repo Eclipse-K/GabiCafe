@@ -25,7 +25,7 @@ function Home() {
     const intervalId = setInterval(() => {
       // 다음 이미지로 이동
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % imageCount);
-    }, 5000); // 3초마다 이미지 변경
+    }, 5000); // 5초마다 이미지 변경
 
     return () => {
       // 컴포넌트가 unmount 되면 타이머를 정리합니다.

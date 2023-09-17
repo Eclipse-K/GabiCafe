@@ -11,6 +11,7 @@ const OffContainer = styled.div`
   padding: 0;
   margin: 0;
   background-color: black;
+  font-family: "Gugi", cursive;
   z-index: 4;
 `;
 

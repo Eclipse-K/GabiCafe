@@ -8,6 +8,7 @@ const LoginInput = styled.input`
   outline: none;
   padding: 8px 0;
   width: 100%;
+  font-family: "Gugi", cursive;
 
   ${({ error }) =>
     !error &&

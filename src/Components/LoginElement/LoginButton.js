@@ -13,6 +13,7 @@ const LoginButton = styled(BaseButton)`
   cursor: pointer;
   font-size: 18px;
   padding: 16px;
+  font-family: "Gugi", cursive;
 
   &:hover,
   &:active {

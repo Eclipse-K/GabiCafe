@@ -5,6 +5,7 @@ import LoginButton from "./LoginButton";
 const LoginContainer = styled.div`
   width: 400px;
   margin: 40px auto;
+  font-family: "Gugi", cursive;
 
   ${LoginInput} {
     margin-bottom: 16px;
