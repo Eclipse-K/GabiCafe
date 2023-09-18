@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import "./Home.css";
 import Navbar from "./Navbar";
-import Gyeongbokgung from "./Images/Gyeongbokgung_Palace.jpg";
-import GyeonghoeruPavilion from "./Images/GyeonghoeruPavilion.png";
-import Gwanghwamun from "./Images/Gwanghwamun.png";
-import BuyongjeongPavilion from "./Images/BuyongjeongPavilion.png";
-import Seokjojeon from "./Images/Deoksugung_Seokjojeon.jpeg";
-import Jeonggwanheon from "./Images/DeoksugungJeonggwanheon.jpeg";
+import Gyeongbokgung from "./Components/Images/Gyeongbokgung_Palace.jpg";
+import GyeonghoeruPavilion from "./Components/Images/GyeonghoeruPavilion.png";
+import Gwanghwamun from "./Components/Images/Gwanghwamun.png";
+import BuyongjeongPavilion from "./Components/Images/BuyongjeongPavilion.png";
+import Seokjojeon from "./Components/Images/Deoksugung_Seokjojeon.jpeg";
+import Jeonggwanheon from "./Components/Images/DeoksugungJeonggwanheon.jpeg";
 
 function Home() {
   const images = [

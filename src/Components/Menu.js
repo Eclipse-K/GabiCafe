@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import EspressoMenu from "../Images/Espresso_Menu.png";
-import LatteMenu from "../Images/Latte_menu.png";
-import BeverageMenu from "../Images/Beverage.png";
-import BlendedMenu from "../Images/Blended.png";
-import TeaMenu from "../Images/Tea.png";
-import SmoothieMenu from "../Images/Smoothie.png";
+import EspressoMenu from "./Images/Espresso_Menu.png";
+import LatteMenu from "./Images/Latte_menu.png";
+import BeverageMenu from "./Images/Beverage.png";
+import BlendedMenu from "./Images/Blended.png";
+import TeaMenu from "./Images/Tea.png";
+import SmoothieMenu from "./Images/Smoothie.png";
 import "./Menu.css";
 import Navbar from "../Navbar";
 

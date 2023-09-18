@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "./Images/Logo.png";
+import Logo from "./Components/Images/Logo.png";
 import { FiX } from "react-icons/fi";
 import "./Navbar.css";
 import { useState } from "react";

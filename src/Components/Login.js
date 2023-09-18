@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import cafeLogo from "../Images/Logo.png";
+import cafeLogo from "./Images/Logo.png";
 import LoginContainer from "./LoginElement/LoginContainer";
 import LoginLink from "./LoginElement/LoginLink";
 import LoginLabel from "./LoginElement/LoginLabel";
