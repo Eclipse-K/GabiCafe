@@ -25,10 +25,9 @@ function Products() {
   return (
     <div>
       <Navbar />
-      <div className="Products-menus">
-        <h3>- Products -</h3>
-
+      <div className="Products-Container">
         <div className="Products-list">
+          <h3>- Products -</h3>
           <div className="Products-box">
             <img className="Products-img" src={Dripper} alt="드리퍼" />
             <p className="Products-content">드리퍼</p>

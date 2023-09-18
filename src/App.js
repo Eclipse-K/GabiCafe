@@ -4,6 +4,7 @@ import Home from "./Home";
 import Menu from "./Components/Menu";
 import Products from "./Components/Products";
 import Login from "./Components/Login";
+import EspressoMenu from "./Components/MenuElement/EspressoMenu";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/Menu" element={<Menu />} />
         <Route path="/Products" element={<Products />} />
         <Route path="/Login" element={<Login />} />
+        <Route path="/EspressoMenu" element={<EspressoMenu />} />
       </Routes>
     </div>
   );

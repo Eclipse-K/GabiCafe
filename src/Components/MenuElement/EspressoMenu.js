@@ -1,64 +1,75 @@
+import Espresso from "../Images/Espresso.png";
+import Americano from "../Images/Americano.png";
+import Handdrip from "../Images/Handdrip.png";
+import Latte from "../Images/Latte.png";
+import Cappuccino from "../Images/Cappuccino.png";
+import Cafe_vienna from "../Images/Cafe_vienna.png";
+import Cafe_Con_Panna from "../Images/Cafe_Con_Panna.png";
+import Caramel_Macchiato from "../Images/Caramel_Macchiato.png";
+import Affogato from "../Images/Affogato.png";
+import Cafe_Mocha from "../Images/Cafe_Mocha.png";
+import EspMenuContainer from "./E-Menu-Element/EspMenuContainer";
+
 function EspressoMenu() {
   return (
-    <div class="menus">
-      <h3>
-        <b>- Espresso Menu -</b>
-      </h3>
-
-      <div class="e-menu_list">
+    <EspMenuContainer>
+      <div class="E-Menu-List">
+        <h3>
+          <b>- Espresso Menu -</b>
+        </h3>
         <ul>
-          <li class="e-menu">
-            <img src="images/Espresso.png" />
-            <div class="e-menu-name">Espresso</div>
+          <li class="E-Menu">
+            <img src={Espresso} alt="Espresso" />
+            <div class="E-Menu-Name">Espresso</div>
           </li>
 
-          <li class="e-menu">
-            <img src="images/Americano.png" />
-            <div class="e-menu-name">Americano</div>
+          <li class="E-Menu">
+            <img src={Americano} alt="Americano" />
+            <div class="E-Menu-Name">Americano</div>
           </li>
 
-          <li class="e-menu">
-            <img src="images/Handdrip.png" />
-            <div class="e-menu-name">Handdrip</div>
+          <li class="E-Menu">
+            <img src={Handdrip} alt="Handdrip" />
+            <div class="E-Menu-Name">Handdrip</div>
           </li>
 
-          <li class="e-menu">
-            <img src="images/Latte.png" />
-            <div class="e-menu-name">Latte</div>
+          <li class="E-Menu">
+            <img src={Latte} alt="Latte" />
+            <div class="E-Menu-Name">Latte</div>
           </li>
 
-          <li class="e-menu">
-            <img src="images/Cappuccino.png" />
-            <div class="e-menu-name">Cappuccino</div>
+          <li class="E-Menu">
+            <img src={Cappuccino} alt="Cappuccino" />
+            <div class="E-Menu-Name">Cappuccino</div>
           </li>
 
-          <li class="e-menu">
-            <img src="images/cafe_vienna.png" />
-            <div class="e-menu-name">Cafe Vienna</div>
+          <li class="E-Menu">
+            <img src={Cafe_vienna} alt="Cafe_vienna" />
+            <div class="E-Menu-Name">Cafe Vienna</div>
           </li>
 
-          <li class="e-menu">
-            <img src="images/Cafe_Con_Panna.png" />
-            <div class="e-menu-name">Cafe Con Panna</div>
+          <li class="E-Menu">
+            <img src={Cafe_Con_Panna} alt="Cafe_Con_Panna" />
+            <div class="E-Menu-Name">Cafe Con Panna</div>
           </li>
 
-          <li class="e-menu">
-            <img src="images/caramel_Macchiato.png" />
-            <div class="e-menu-name">Caramel Macchiato</div>
+          <li class="E-Menu">
+            <img src={Caramel_Macchiato} alt="Carmel_Macchiato" />
+            <div class="E-Menu-Name">Caramel Macchiato</div>
           </li>
 
-          <li class="e-menu">
-            <img src="images/Affogato.png" />
-            <div class="e-menu-name">Affogato</div>
+          <li class="E-Menu">
+            <img src={Affogato} alt="Affogato" />
+            <div class="E-Menu-Name">Affogato</div>
           </li>
 
-          <li class="e-menu">
-            <img src="images/Cafe_Mocha.png" />
-            <div class="e-menu-name">Cafe Mocha</div>
+          <li class="E-Menu">
+            <img src={Cafe_Mocha} alt="Cafe_Mocha" />
+            <div class="E-Menu-Name">Cafe Mocha</div>
           </li>
         </ul>
       </div>
-    </div>
+    </EspMenuContainer>
   );
 }
 
