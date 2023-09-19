@@ -9,6 +9,13 @@ const EspMenuContainer = styled.div`
   padding-bottom: 20px;
   transform: translate(10%, 0);
   font-family: "Gugi", cursive;
+
+  h1 {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 export default EspMenuContainer;
