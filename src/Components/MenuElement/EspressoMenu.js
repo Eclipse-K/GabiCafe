@@ -1,12 +1,12 @@
 import { useState } from "react";
 import Navbar from "../../Navbar";
-import jsonData from "./EspressoMenu.json";
+import EspJson from "./EspressoMenu.json";
 import EspMenuContainer from "./E-Menu-Element/EspMenuContainer";
 import EspMenuImgItem from "./E-Menu-Element/EspMenuImgItem";
 
 function EspressoMenu() {
   // eslint-disable-next-line
-  const [images, setImages] = useState(jsonData.images);
+  const [images, setImages] = useState(EspJson.images);
 
   return (
     <div>
