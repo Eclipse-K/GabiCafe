@@ -1,47 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.f781e876.css",
-    "main.js": "/static/js/main.d03c4b54.js",
+    "main.css": "/static/css/main.f8a90528.css",
+    "main.js": "/static/js/main.ffd346e6.js",
     "static/media/Gyeongbokgung_Palace.jpg": "/static/media/Gyeongbokgung_Palace.58cb6953343126213d52.jpg",
     "static/media/Gwanghwamun.png": "/static/media/Gwanghwamun.21c9908ba92b614c04ac.png",
     "static/media/GyeonghoeruPavilion.png": "/static/media/GyeonghoeruPavilion.458512ad507c8e8b4240.png",
     "static/media/BuyongjeongPavilion.png": "/static/media/BuyongjeongPavilion.f6a170f1895b96329476.png",
-    "static/media/Coffee_Server.png": "/static/media/Coffee_Server.b973e73fe27194eaa70c.png",
     "static/media/Latte_menu.png": "/static/media/Latte_menu.8510d4d58be3669d7064.png",
     "static/media/Beverage.png": "/static/media/Beverage.83186dce939317479173.png",
-    "static/media/Siphon.png": "/static/media/Siphon.0e5de201eea036059eba.png",
     "static/media/Espresso_Menu.png": "/static/media/Espresso_Menu.fe053fcfb8f345ca316b.png",
     "static/media/Tea.png": "/static/media/Tea.58480e4b70e80f3bc878.png",
     "static/media/Smoothie.png": "/static/media/Smoothie.2a37a1688b457c9c97b0.png",
-    "static/media/Coffee_Grinder.png": "/static/media/Coffee_Grinder.5db2568588a51f0a0d96.png",
-    "static/media/Dripper.png": "/static/media/Dripper.cc59e6fbc28e8efcff04.png",
-    "static/media/Dutch_Maker.png": "/static/media/Dutch_Maker.3c283100ceccf1788b62.png",
-    "static/media/Drip_Pot.png": "/static/media/Drip_Pot.49fe088dcf5116b8076c.png",
     "static/media/Blended.png": "/static/media/Blended.3e06c2cc12436e593cb1.png",
-    "static/media/Moca_pot.png": "/static/media/Moca_pot.25d57c213f97b4ded870.png",
-    "static/media/Coffee_Tamper.png": "/static/media/Coffee_Tamper.152202af5aa2397034e5.png",
-    "static/media/Espresso_Maker.png": "/static/media/Espresso_Maker.7e640ceb8c9418c53f65.png",
-    "static/media/Coffee_Caddies.png": "/static/media/Coffee_Caddies.3c61412e4d86e55ce7f1.png",
     "static/media/DeoksugungJeonggwanheon.jpeg": "/static/media/DeoksugungJeonggwanheon.48795d9eefef5e089d99.jpeg",
-    "static/media/Coffee_Capsule_Machine.png": "/static/media/Coffee_Capsule_Machine.ba383134adf043eb76f8.png",
-    "static/media/French_Press.png": "/static/media/French_Press.15c664f6f664a71f2ee9.png",
     "static/media/Deoksugung_Seokjojeon.jpeg": "/static/media/Deoksugung_Seokjojeon.0b9de097797fa5f126a8.jpeg",
-    "static/media/Coffee_Distributor.png": "/static/media/Coffee_Distributor.8297b375e489448a38c8.png",
-    "static/media/Milk_Frother.png": "/static/media/Milk_Frother.a284415b564abaa94f63.png",
-    "static/media/Vietnamese_Phin_Dripper.png": "/static/media/Vietnamese_Phin_Dripper.1bd4c5bdae22a94d4cc8.png",
-    "static/media/Paper_Coffee_Filter.png": "/static/media/Paper_Coffee_Filter.db3285dc486ef4906bc3.png",
-    "static/media/Espresso_Machine.png": "/static/media/Espresso_Machine.a4dda1e945d76f62d5af.png",
-    "static/media/Bell_Creamer.png": "/static/media/Bell_Creamer.130cad158714648dfab6.png",
-    "static/media/Steaming_Pitcher.png": "/static/media/Steaming_Pitcher.b1cf18b719a5ed6c1940.png",
     "static/media/Logo.png": "/static/media/Logo.a1e6150d3a1afeab7744.png",
     "static/media/kakao.svg": "/static/media/kakao.e6c13ba334f03a0ae9a0c0db9920fe49.svg",
     "static/media/spinner.svg": "/static/media/spinner.c707a02a21900ebd807865c3c08be3a1.svg",
     "index.html": "/index.html",
-    "main.f781e876.css.map": "/static/css/main.f781e876.css.map",
-    "main.d03c4b54.js.map": "/static/js/main.d03c4b54.js.map"
+    "main.f8a90528.css.map": "/static/css/main.f8a90528.css.map",
+    "main.ffd346e6.js.map": "/static/js/main.ffd346e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.f781e876.css",
-    "static/js/main.d03c4b54.js"
+    "static/css/main.f8a90528.css",
+    "static/js/main.ffd346e6.js"
   ]
 }
