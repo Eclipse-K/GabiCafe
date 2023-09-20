@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const EspMenuContainer = styled.div`
+const CafeMenuContainer = styled.div`
   overflow: visible;
   background-color: white;
   width: 80%;
@@ -18,4 +18,4 @@ const EspMenuContainer = styled.div`
   }
 `;
 
-export default EspMenuContainer;
+export default CafeMenuContainer;

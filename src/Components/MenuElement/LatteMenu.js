@@ -1,26 +1,26 @@
 import { useState } from "react";
 import Navbar from "../../Navbar";
-import EspJson from "./CafeMenu.json";
+import LatteJson from "./CafeMenu.json";
 import CafeMenuContainer from "./C-Menu-Element/CafeMenuContainer";
 import CafeMenuImgItem from "./C-Menu-Element/CafeMenuImgItem";
 
-function EspressoMenu() {
+function LatteMenu() {
   // eslint-disable-next-line
-  const [espImages, setEspImages] = useState(EspJson.espimages);
+  const [latImages, setLatImages] = useState(LatteJson.latimages);
 
   return (
     <div>
       <Navbar />
       <CafeMenuContainer>
-        <h1>Espresso Menu</h1>
+        <h1>Latte Menu</h1>
 
-        {espImages.map((esp, index) => (
-          <CafeMenuImgItem key={index}>
+        {latImages.map((lat, index) => (
+          <CafeMenuImgItem>
             <img
-              src={process.env.PUBLIC_URL + `/images/${esp.espUrl}`}
-              alt={esp.esp_name}
+              src={process.env.PUBLIC_URL + `/images/${lat.latUrl}`}
+              alt={lat.lat_name}
             />
-            <p>{esp.esp_name}</p>
+            <p>{lat.lat_name}</p>
           </CafeMenuImgItem>
         ))}
       </CafeMenuContainer>
@@ -28,4 +28,4 @@ function EspressoMenu() {
   );
 }
 
-export default EspressoMenu;
+export default LatteMenu;

@@ -18,7 +18,7 @@ function Menu() {
           <div className="menu-title">- Espresso Menu -</div>
         </Link>
 
-        <Link className="grid-box" to="/Latte">
+        <Link className="grid-box" to="/LatteMenu">
           <img src={LatteMenu} alt="LatteMenu" />
           <div className="menu-title">- Latte -</div>
         </Link>

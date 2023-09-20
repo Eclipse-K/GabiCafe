@@ -1,0 +1,107 @@
+{
+  "espimages": [
+    {
+      "id": 1,
+      "esp_name": "Espresso",
+      "espUrl": "../Images/Espresso.png"
+    },
+    {
+      "id": 2,
+      "esp_name": "Americano",
+      "espUrl": "../Images/Americano.png"
+    },
+    {
+      "id": 3,
+      "esp_name": "Handdrip",
+      "espUrl": "../Images/Handdrip.png"
+    },
+    {
+      "id": 4,
+      "esp_name": "Latte",
+      "espUrl": "../Images/Latte.png"
+    },
+    {
+      "id": 5,
+      "esp_name": "Cappuccino",
+      "espUrl": "../Images/Cappuccino.png"
+    },
+    {
+      "id": 6,
+      "esp_name": "CafeVienna",
+      "espUrl": "../Images/Cafe_vienna.png"
+    },
+    {
+      "id": 7,
+      "esp_name": "CafeConPanna",
+      "espUrl": "../Images/Cafe_Con_Panna.png"
+    },
+    {
+      "id": 8,
+      "esp_name": "CaramelMacchiato",
+      "espUrl": "../Images/Caramel_Macchiato.png"
+    },
+    {
+      "id": 9,
+      "esp_name": "Affogato",
+      "espUrl": "../Images/Affogato.png"
+    },
+    {
+      "id": 10,
+      "esp_name": "Cafe_Mocha",
+      "espUrl": "../Images/Cafe_Mocha.png"
+    }
+  ],
+
+  "latimages": [
+    {
+      "id": 1,
+      "lat_name": "Caramel Latte",
+      "latUrl": "../Images/Caramel_Latte.png"
+    },
+    {
+      "id": 2,
+      "lat_name": "Chocolate Latte",
+      "latUrl": "../Images/Chocolate_Latte.png"
+    },
+    {
+      "id": 3,
+      "lat_name": "Green Tea Latte",
+      "latUrl": "../Images/Green_Tea_Latte.png"
+    },
+    {
+      "id": 4,
+      "lat_name": "Sweet Patato Latte",
+      "latUrl": "../Images/Sweet_Potato_Latte.png"
+    },
+    {
+      "id": 5,
+      "lat_name": "Toffeenut Latte",
+      "latUrl": "../Images/Toffeenut_Latte.png"
+    },
+    {
+      "id": 6,
+      "lat_name": "Mint Chocolate Latte",
+      "latUrl": "../Images/Mint_Chocolate_Latte.png"
+    },
+    {
+      "id": 7,
+      "lat_name": "Tiramisu Latte",
+      "latUrl": "../Images/Tiramisu_Latte.png"
+    },
+    {
+      "id": 8,
+      "lat_name": "Chestnut_Latte",
+      "latUrl": "../Images/Chestnut_Latte.png"
+    },
+    {
+      "id": 9,
+      "lat_name": "Black Sesame Latte",
+      "latUrl": "../Images/Black_Sesame_Latte.png"
+    },
+    {
+      "id": 10,
+      "lat_name": "Black Sugar Latte",
+      "latUrl": "../Images/Black_Sugar_Latte.png"
+    }
+  ]
+}

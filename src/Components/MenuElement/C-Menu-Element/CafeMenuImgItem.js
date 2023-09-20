@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const EspMenuImgItem = styled.div`
+const CafeMenuImgItem = styled.div`
   display: inline-block;
   width: 50%;
 
@@ -16,4 +16,4 @@ const EspMenuImgItem = styled.div`
   }
 `;
 
-export default EspMenuImgItem;
+export default CafeMenuImgItem;

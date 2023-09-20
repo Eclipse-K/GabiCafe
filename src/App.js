@@ -5,6 +5,7 @@ import Menu from "./Components/Menu";
 import Products from "./Components/Products";
 import Login from "./Components/Login";
 import EspressoMenu from "./Components/MenuElement/EspressoMenu";
+import LatteMenu from "./Components/MenuElement/LatteMenu";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/Products" element={<Products />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/EspressoMenu" element={<EspressoMenu />} />
+        <Route path="/LatteMenu" element={<LatteMenu />} />
       </Routes>
     </div>
   );
