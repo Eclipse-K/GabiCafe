@@ -103,5 +103,58 @@
       "lat_name": "Black Sugar Latte",
       "latUrl": "../Images/Black_Sugar_Latte.png"
     }
+  ],
+
+  "beverimages": [
+    {
+      "id": 1,
+      "bever_name": "Lemonade",
+      "beverUrl": "../Images/Lemonade.png"
+    },
+    {
+      "id": 2,
+      "bever_name": "Sikhye",
+      "beverUrl": "../Images/Sikhye.png"
+    },
+    {
+      "id": 3,
+      "bever_name": "Grapefruit Ade",
+      "beverUrl": "../Images/Grapefruit_Ade.png"
+    },
+    {
+      "id": 4,
+      "bever_name": "Green Grape Ade",
+      "beverUrl": "../Images/Green_Grape_Ade.png"
+    },
+    {
+      "id": 5,
+      "bever_name": "MilkShake",
+      "beverUrl": "../Images/MilkShake.png"
+    },
+    {
+      "id": 6,
+      "bever_name": "Orange Juice",
+      "beverUrl": "../Images/Orange_Juice.png"
+    },
+    {
+      "id": 7,
+      "bever_name": "WaterMelon Juice",
+      "beverUrl": "../Images/WaterMelon_Juice.png"
+    },
+    {
+      "id": 8,
+      "bever_name": "Strawberry Juice",
+      "beverUrl": "../Images/Strawberry_Juice.png"
+    },
+    {
+      "id": 9,
+      "bever_name": "Tomato Juice",
+      "beverUrl": "../Images/Tomato_Juice.png"
+    },
+    {
+      "id": 10,
+      "bever_name": "Mango Juice",
+      "beverUrl": "../Images/Mango_Juice.png"
+    }
   ]
 }

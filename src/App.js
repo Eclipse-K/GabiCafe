@@ -6,6 +6,7 @@ import Products from "./Components/Products";
 import Login from "./Components/Login";
 import EspressoMenu from "./Components/MenuElement/EspressoMenu";
 import LatteMenu from "./Components/MenuElement/LatteMenu";
+import Beverage from "./Components/MenuElement/Beverage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/Login" element={<Login />} />
         <Route path="/EspressoMenu" element={<EspressoMenu />} />
         <Route path="/LatteMenu" element={<LatteMenu />} />
+        <Route path="/Beverage" element={<Beverage />} />
       </Routes>
     </div>
   );
