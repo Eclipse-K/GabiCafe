@@ -23,12 +23,12 @@ function Menu() {
           <div className="menu-title">- Latte -</div>
         </Link>
 
-        <Link className="grid-box" to="/beverage">
+        <Link className="grid-box" to="/Beverage">
           <img src={BeverageMenu} alt="BeverageMenu" />
           <div className="menu-title">- Beverage -</div>
         </Link>
 
-        <Link className="grid-box" to="/blended">
+        <Link className="grid-box" to="/Blended">
           <img src={BlendedMenu} alt="BlendedMenu" />
           <div className="menu-title">- Blended -</div>
         </Link>

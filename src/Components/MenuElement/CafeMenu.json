@@ -156,5 +156,43 @@
       "bever_name": "Mango Juice",
       "beverUrl": "../Images/Mango_Juice.png"
     }
+  ],
+
+  "bleimages": [
+    {
+      "id": 1,
+      "ble_name": "Mint Chocolate Frappe",
+      "bleUrl": "../Images/Mint_Chocolate_Frappe.png"
+    },
+    {
+      "id": 2,
+      "ble_name": "Javachips Frappe",
+      "bleUrl": "../Images/Javachips_Frappe.png"
+    },
+    {
+      "id": 3,
+      "ble_name": "Cookie & Cream Frapperuit",
+      "bleUrl": "../Images/Cookie&Cream_Frappe.png"
+    },
+    {
+      "id": 4,
+      "ble_name": "Green Tea Frappe",
+      "bleUrl": "../Images/Green_Tea_Frappe.png"
+    },
+    {
+      "id": 5,
+      "ble_name": "Moca Frappe",
+      "bleUrl": "../Images/Moca_Frappe.png"
+    },
+    {
+      "id": 6,
+      "ble_name": "Caramel Frappe",
+      "bleUrl": "../Images/Caramel_Frappe.png"
+    },
+    {
+      "id": 7,
+      "ble_name": "Pistachio_Frappe",
+      "bleUrl": "../Images/Pistachio_Frappe.png"
+    }
   ]
 }

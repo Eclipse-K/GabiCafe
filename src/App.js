@@ -7,6 +7,7 @@ import Login from "./Components/Login";
 import EspressoMenu from "./Components/MenuElement/EspressoMenu";
 import LatteMenu from "./Components/MenuElement/LatteMenu";
 import Beverage from "./Components/MenuElement/Beverage";
+import Blended from "./Components/MenuElement/Blended";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/EspressoMenu" element={<EspressoMenu />} />
         <Route path="/LatteMenu" element={<LatteMenu />} />
         <Route path="/Beverage" element={<Beverage />} />
+        <Route path="/Blended" element={<Blended />} />
       </Routes>
     </div>
   );
