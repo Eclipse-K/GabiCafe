@@ -15,7 +15,7 @@ function LatteMenu() {
         <h1>Latte Menu</h1>
 
         {latImages.map((lat, index) => (
-          <CafeMenuImgItem>
+          <CafeMenuImgItem key={index}>
             <img
               src={process.env.PUBLIC_URL + `/images/${lat.latUrl}`}
               alt={lat.lat_name}

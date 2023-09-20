@@ -8,6 +8,7 @@ import EspressoMenu from "./Components/MenuElement/EspressoMenu";
 import LatteMenu from "./Components/MenuElement/LatteMenu";
 import Beverage from "./Components/MenuElement/Beverage";
 import Blended from "./Components/MenuElement/Blended";
+import Tea from "./Components/MenuElement/Tea";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/LatteMenu" element={<LatteMenu />} />
         <Route path="/Beverage" element={<Beverage />} />
         <Route path="/Blended" element={<Blended />} />
+        <Route path="/Tea" element={<Tea />} />
       </Routes>
     </div>
   );

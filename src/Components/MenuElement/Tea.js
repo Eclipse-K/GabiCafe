@@ -1,26 +1,26 @@
 import { useState } from "react";
 import Navbar from "../../Navbar";
-import BeverJson from "./CafeMenu.json";
+import TeaJson from "./CafeMenu.json";
 import CafeMenuContainer from "./C-Menu-Element/CafeMenuContainer";
 import CafeMenuImgItem from "./C-Menu-Element/CafeMenuImgItem";
 
-function Beverage() {
+function Tea() {
   // eslint-disable-next-line
-  const [beverImages, setBeverImages] = useState(BeverJson.beverimages);
+  const [teaImages, setTeaImages] = useState(TeaJson.teaimages);
 
   return (
     <div>
       <Navbar />
       <CafeMenuContainer>
-        <h1>Beverage</h1>
+        <h1>Tea</h1>
 
-        {beverImages.map((bever, index) => (
+        {teaImages.map((tea, index) => (
           <CafeMenuImgItem key={index}>
             <img
-              src={process.env.PUBLIC_URL + `/images/${bever.beverUrl}`}
-              alt={bever.bever_name}
+              src={process.env.PUBLIC_URL + `/images/${tea.teaUrl}`}
+              alt={tea.tea_name}
             />
-            <p>{bever.bever_name}</p>
+            <p>{tea.tea_name}</p>
           </CafeMenuImgItem>
         ))}
       </CafeMenuContainer>
@@ -28,4 +28,4 @@ function Beverage() {
   );
 }
 
-export default Beverage;
+export default Tea;

@@ -194,5 +194,58 @@
       "ble_name": "Pistachio_Frappe",
       "bleUrl": "../Images/Pistachio_Frappe.png"
     }
+  ],
+
+  "teaimages": [
+    {
+      "id": 1,
+      "tea_name": "Black Tea",
+      "teaUrl": "../Images/Black_Tea.png"
+    },
+    {
+      "id": 2,
+      "tea_name": "Milk Tea",
+      "teaUrl": "../Images/MilkTea.png"
+    },
+    {
+      "id": 3,
+      "tea_name": "Chamomile Tea",
+      "teaUrl": "../Images/Chamomile.png"
+    },
+    {
+      "id": 4,
+      "tea_name": "Rooibos Tea",
+      "teaUrl": "../Images/RooibosTea.png"
+    },
+    {
+      "id": 5,
+      "tea_name": "Mint Tea",
+      "teaUrl": "../Images/Mint_Tea.png"
+    },
+    {
+      "id": 6,
+      "tea_name": "Lemon Earl Grey Tea",
+      "teaUrl": "../Images/LemonEarlGreyTea.png"
+    },
+    {
+      "id": 7,
+      "tea_name": "Iced Ttea(peach)",
+      "teaUrl": "../Images/Iced_tea(peach).png"
+    },
+    {
+      "id": 8,
+      "tea_name": "Hibiscus Tea",
+      "teaUrl": "../Images/Hibiscus_Tea.png"
+    },
+    {
+      "id": 9,
+      "tea_name": "Taro Milk Tea",
+      "teaUrl": "../Images/Taro_Milk_Tea.png"
+    },
+    {
+      "id": 10,
+      "tea_name": "Citrus Tea",
+      "teaUrl": "../Images/Citrus_Tea.png"
+    }
   ]
 }
