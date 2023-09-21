@@ -247,5 +247,58 @@
       "tea_name": "Citrus Tea",
       "teaUrl": "../Images/Citrus_Tea.png"
     }
+  ],
+
+  "smooimages": [
+    {
+      "id": 1,
+      "smoo_name": "Plain Yogurt Smoothie",
+      "smooUrl": "../Images/Plain_Yogurt_Smoothie.png"
+    },
+    {
+      "id": 2,
+      "smoo_name": "Strawberry Smoothie",
+      "smooUrl": "../Images/StrawberrySmoothie.png"
+    },
+    {
+      "id": 3,
+      "smoo_name": "Mango Smoothie",
+      "smooUrl": "../Images/MangoSmoothie.png"
+    },
+    {
+      "id": 4,
+      "smoo_name": "Blueberry Yogurt Smoothie",
+      "smooUrl": "../Images/BlueberryYogurtSmoothie.png"
+    },
+    {
+      "id": 5,
+      "smoo_name": "Watermelon Smoothie",
+      "smooUrl": "../Images/WatermelonSmoothie.png"
+    },
+    {
+      "id": 6,
+      "smoo_name": "Hanrabong Smoothie",
+      "smooUrl": "../Images/HanrabongSmoothie.png"
+    },
+    {
+      "id": 7,
+      "smoo_name": "Melon Smoothie",
+      "smooUrl": "../Images/MelonSmoothie.png"
+    },
+    {
+      "id": 8,
+      "smoo_name": "Pineapple Smoothie",
+      "smooUrl": "../Images/PineappleSmoothie.png"
+    },
+    {
+      "id": 9,
+      "smoo_name": "Kiwi Smoothie",
+      "smooUrl": "../Images/KiwiSmoothie.png"
+    },
+    {
+      "id": 10,
+      "smoo_name": "Citrus Yogurt Smoothie",
+      "smooUrl": "../Images/Citrus_Yogurt_Smoothie.png"
+    }
   ]
 }
