@@ -7,6 +7,7 @@ import Gwanghwamun from "./Components/Images/Gwanghwamun.png";
 import BuyongjeongPavilion from "./Components/Images/BuyongjeongPavilion.png";
 import Seokjojeon from "./Components/Images/Deoksugung_Seokjojeon.jpeg";
 import Jeonggwanheon from "./Components/Images/DeoksugungJeonggwanheon.jpeg";
+import Copyright from "./Components/Copyright";
 
 function Home() {
   const images = [
@@ -44,6 +45,8 @@ function Home() {
           alt={`Cat ${currentImageIndex + 1}`}
         />
       </div>
+
+      <Copyright />
     </div>
   );
 }
