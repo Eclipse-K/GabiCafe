@@ -14,6 +14,17 @@ const CafeMenuImgItem = styled.div`
     margin-top: 5px;
     margin-bottom: 20px;
   }
+
+  @media all and (max-width: 768px) {
+    img {
+      width: 100px;
+      height: 100px;
+    }
+
+    p {
+      font-size: 13px;
+    }
+  }
 `;
 
 export default CafeMenuImgItem;
