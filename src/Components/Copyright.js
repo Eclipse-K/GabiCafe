@@ -9,6 +9,7 @@ const CopyFooter = styled.footer`
   color: white;
   margin-top: 10px;
   position: fixed;
+  font-family: "Gugi", cursive;
   z-index: 3;
 
   p {
