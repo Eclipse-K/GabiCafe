@@ -20,12 +20,12 @@ function Home() {
   ];
   const imageCount = images.length;
 
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [homeImage, sethomeImage] = useState(0);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
       // 다음 이미지로 이동
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % imageCount);
+      sethomeImage((prevIndex) => (prevIndex + 1) % imageCount);
     }, 5000); // 5초마다 이미지 변경
 
     return () => {
@@ -41,8 +41,8 @@ function Home() {
       <div className="Home">
         <img
           className="Slide-img"
-          src={images[currentImageIndex]}
-          alt={`Cat ${currentImageIndex + 1}`}
+          src={images[homeImage]}
+          alt={`Cat ${homeImage + 1}`}
         />
       </div>
 
