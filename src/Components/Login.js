@@ -11,6 +11,10 @@ const LoginLogo = styled.img`
   display: block;
   margin: 16px auto;
   width: 200px;
+
+  @media all and (max-width: 768px) {
+    width: 150px;
+  }
 `;
 
 const LoginDescription = styled.div`
