@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb517c9b.css",
-    "main.js": "/static/js/main.8d97cc57.js",
+    "main.css": "/static/css/main.9190944f.css",
+    "main.js": "/static/js/main.08b2cd4c.js",
     "static/media/Gyeongbokgung_Palace.jpg": "/static/media/Gyeongbokgung_Palace.58cb6953343126213d52.jpg",
     "static/media/Gwanghwamun.png": "/static/media/Gwanghwamun.21c9908ba92b614c04ac.png",
     "static/media/GyeonghoeruPavilion.png": "/static/media/GyeonghoeruPavilion.458512ad507c8e8b4240.png",
@@ -18,11 +18,11 @@
     "static/media/kakao.svg": "/static/media/kakao.e6c13ba334f03a0ae9a0c0db9920fe49.svg",
     "static/media/spinner.svg": "/static/media/spinner.c707a02a21900ebd807865c3c08be3a1.svg",
     "index.html": "/index.html",
-    "main.fb517c9b.css.map": "/static/css/main.fb517c9b.css.map",
-    "main.8d97cc57.js.map": "/static/js/main.8d97cc57.js.map"
+    "main.9190944f.css.map": "/static/css/main.9190944f.css.map",
+    "main.08b2cd4c.js.map": "/static/js/main.08b2cd4c.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb517c9b.css",
-    "static/js/main.8d97cc57.js"
+    "static/css/main.9190944f.css",
+    "static/js/main.08b2cd4c.js"
   ]
 }
