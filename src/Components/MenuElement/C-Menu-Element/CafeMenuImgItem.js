@@ -15,7 +15,7 @@ const CafeMenuImgItem = styled.div`
     margin-bottom: 20px;
   }
 
-  @media all and (max-width: 768px) {
+  @media all and (max-width: 700px) {
     img {
       width: 100px;
       height: 100px;

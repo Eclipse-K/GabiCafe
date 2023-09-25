@@ -12,7 +12,7 @@ const LoginLogo = styled.img`
   margin: 16px auto;
   width: 200px;
 
-  @media all and (max-width: 768px) {
+  @media all and (max-width: 700px) {
     width: 150px;
   }
 `;
