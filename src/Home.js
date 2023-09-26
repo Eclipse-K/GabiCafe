@@ -7,6 +7,8 @@ import Gwanghwamun from "./Components/Images/Gwanghwamun.png";
 import BuyongjeongPavilion from "./Components/Images/BuyongjeongPavilion.png";
 import Seokjojeon from "./Components/Images/Deoksugung_Seokjojeon.jpeg";
 import Jeonggwanheon from "./Components/Images/DeoksugungJeonggwanheon.jpeg";
+import Food_1 from "./Components/Images/Food_1.png";
+import Food_2 from "./Components/Images/Food_2.jpeg";
 import Copyright from "./Components/Copyright";
 
 function Home() {
@@ -18,21 +20,25 @@ function Home() {
     Seokjojeon,
     Jeonggwanheon,
   ];
+  const FoodImage = [Food_1, Food_2];
   const imageCount = images.length;
+  const FoodImageCount = FoodImage.length;
 
   const [homeImage, sethomeImage] = useState(0);
+  const [homeFoodImage, setHomeFoddImage] = useState(0);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
       // 다음 이미지로 이동
       sethomeImage((prevIndex) => (prevIndex + 1) % imageCount);
+      setHomeFoddImage((prevIndex) => (prevIndex + 1) % FoodImageCount);
     }, 5000); // 5초마다 이미지 변경
 
     return () => {
       // 컴포넌트가 unmount 되면 타이머를 정리합니다.
       clearInterval(intervalId);
     };
-  }, [imageCount]);
+  }, [imageCount, FoodImageCount]);
 
   return (
     <div>
@@ -43,6 +49,11 @@ function Home() {
           className="Slide-img"
           src={images[homeImage]}
           alt={`Cat ${homeImage + 1}`}
+        />
+        <img
+          className="Slide-Food-img"
+          src={FoodImage[homeFoodImage]}
+          alt={`Cat ${homeFoodImage + 1}`}
         />
       </div>
 

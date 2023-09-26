@@ -18,6 +18,10 @@ const CopyFooter = styled.footer`
     text-align: center;
     margin: auto;
   }
+
+  @media all and (max-width: 700px) {
+    font-size: 10px;
+  }
 `;
 
 function Copyright() {
