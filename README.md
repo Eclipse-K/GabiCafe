@@ -1,38 +1,39 @@
-# Information
+# 📜 Information
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=GabiCafe&fontSize=90" />
 
 - 커피와 카페의 메뉴를 소개하는 목적으로 만든 사이트 [GabiCafe](https://GabiCafe.netlify.app).
 
-## Tech Stack
+## 🧰 Tech Stack
 
-### Platforms & Languages
+### 📖 Platforms & Languages
 
-<div align="center">
+<center>
+<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
-</div>
+</center>
 
-### Tools
+### 🛠️ Tools
 
-<div align="center">
+<center>
 <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
 <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
-</div>
+</center>
 
-<div>
+<center>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eclipse-K&layout=compact"><br><br>
 <img src="https://github-readme-stats.vercel.app/api?username=Eclipse-K&show_icons=true">
 
-</div>
+</center>
 
-## 상세 소개
+## 🔎 상세 소개
 
 - 카페의 메뉴를 모아서 보고 싶다는 생각에서 시작한 프로젝트. 기존에 Html과 Css로만 작업했지만, 코드가 길어지고 복잡해지면서 수정작업에 번거로워지다보니 대대적으로 수정이 필요하다고 느꼈습니다. React로 작업하니 내용의 수정이 쉬워졌다는 것이 장점입니다. 또한 카페에서 어떤 메뉴가 있는지 어떤 기구들이 사용되는지 볼 수 있는 점도 넣었습니다.
 
-### `메뉴 소개`
+### 📌 `메뉴 소개`
 
 1. Espresso
 2. Latte
@@ -41,15 +42,15 @@
 5. Tea
 6. Smoothie
 
-### `제품군`
+### 📌 `제품군`
 
 - Products탭을 통해 카페에 필요한 기구들을 소개하는 페이지를 만들었습니다.
 
-### `로그인`
+### ⌨️ `로그인`
 
 사실 로그인 페이지가 필요할지는 잘 모르겠지만 배운 것들을 페이지에 녹아내는 것도 필요하다고 판단되어 추가했습니다.
 
-### `과정`
+### 🪧 `과정`
 
 1. 네비게이션 바를 그대로 가져와보니 홈페이지 사이즈가 줄어들었을 때는 위치 조정이 쉽지 않다는 문제점이 있었습니다. -> 아이콘 모양의 오프캔버스로 변경. -> 아이콘을 직접 만들어 에니메이션 효과 모션을 줄 수 있는 방법을 찾아내서 적용했습니다.
 
