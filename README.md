@@ -1,19 +1,36 @@
-# Gabi | 커피에 진심이다.
+# Information
 
-커피와 카페의 메뉴를 소개하는 목적으로 만든 사이트 [GabiCafe](https://GabiCafe.netlify.app).
+<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=GabiCafe&fontSize=90" />
 
-## 기술 & 라이브러리
+- 커피와 카페의 메뉴를 소개하는 목적으로 만든 사이트 [GabiCafe](https://GabiCafe.netlify.app).
 
-<div>
+## Tech Stack
+
+### Platforms & Languages
+
+<div align="center">
 <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+</div>
+
+### Tools
+
+<div align="center">
+<img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
+<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+</div>
+
+<div>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eclipse-K&layout=compact"><br><br>
+<img src="https://github-readme-stats.vercel.app/api?username=Eclipse-K&show_icons=true">
 
 </div>
 
 ## 상세 소개
 
-카페의 메뉴를 모아서 보고 싶다는 생각에서 시작한 프로젝트. 기존에 Html과 Css로만 작업했지만, 코드가 길어지고 복잡해지면서 수정작업에 번거로워지다보니 대대적으로 수정이 필요하다고 느꼈습니다. React로 작업하니 내용의 수정이 쉬워졌다는 것이 장점입니다. 또한 카페에서 어떤 메뉴가 있는지 어떤 기구들이 사용되는지 볼 수 있는 점도 넣었습니다.
+- 카페의 메뉴를 모아서 보고 싶다는 생각에서 시작한 프로젝트. 기존에 Html과 Css로만 작업했지만, 코드가 길어지고 복잡해지면서 수정작업에 번거로워지다보니 대대적으로 수정이 필요하다고 느꼈습니다. React로 작업하니 내용의 수정이 쉬워졌다는 것이 장점입니다. 또한 카페에서 어떤 메뉴가 있는지 어떤 기구들이 사용되는지 볼 수 있는 점도 넣었습니다.
 
 ### `메뉴 소개`
 
