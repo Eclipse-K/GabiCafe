@@ -46,16 +46,22 @@ function Home() {
       <Navbar />
 
       <div className="Home">
-        <img
-          className="Slide-img"
-          src={images[homeImage]}
-          alt={`Cat ${homeImage + 1}`}
-        />
-        <img
-          className="Slide-Food-img"
-          src={FoodImage[homeFoodImage]}
-          alt={`Cat ${homeFoodImage + 1}`}
-        />
+        <div className="Slide-img-container">
+          <img
+            className="Slide-img"
+            src={images[homeImage]}
+            alt={`Cat ${homeImage + 1}`}
+          />
+          <div className="Slide-content"></div>
+        </div>
+        <div className="Slide-food-container">
+          <img
+            className="Slide-Food-img"
+            src={FoodImage[homeFoodImage]}
+            alt={`Cat ${homeFoodImage + 1}`}
+          />
+          <div className="Slide-content"></div>
+        </div>
       </div>
 
       <Copyright />
