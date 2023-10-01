@@ -1,24 +1,22 @@
 import React, { useState, useEffect } from "react";
 import "./Home.css";
 import Navbar from "./Navbar";
-import Gyeongbokgung from "./Components/Images/Gyeongbokgung_Palace.jpg";
-import GyeonghoeruPavilion from "./Components/Images/GyeonghoeruPavilion.png";
-import Gwanghwamun from "./Components/Images/Gwanghwamun.png";
-import BuyongjeongPavilion from "./Components/Images/BuyongjeongPavilion.png";
 import Seokjojeon from "./Components/Images/Deoksugung_Seokjojeon.jpeg";
+import SeokjojeonI from "./Components/Images/Seokjojeon_Inside.jpeg";
 import Jeonggwanheon from "./Components/Images/DeoksugungJeonggwanheon.jpeg";
+import TraditionHouseF from "./Components/Images/TraditionHouse_Front.png";
+import TraditionHouseI from "./Components/Images/TraditionHouse_Inside.png";
 import Food_1 from "./Components/Images/Food_1.png";
 import Food_2 from "./Components/Images/Food_2.jpeg";
 import Copyright from "./Components/Copyright";
 
 function Home() {
   const images = [
-    Gyeongbokgung,
-    GyeonghoeruPavilion,
-    Gwanghwamun,
-    BuyongjeongPavilion,
     Seokjojeon,
+    SeokjojeonI,
     Jeonggwanheon,
+    TraditionHouseF,
+    TraditionHouseI,
   ];
   const FoodImage = [Food_1, Food_2];
   const imageCount = images.length;
