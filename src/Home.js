@@ -8,6 +8,9 @@ import TraditionHouseF from "./Components/Images/TraditionHouse_Front.png";
 import TraditionHouseI from "./Components/Images/TraditionHouse_Inside.png";
 import Food_1 from "./Components/Images/Food_1.png";
 import Food_2 from "./Components/Images/Food_2.jpeg";
+import Food_3 from "./Components/Images/Food_3.png";
+import Food_4 from "./Components/Images/Food_4.png";
+import Food_5 from "./Components/Images/Food_5.png";
 import Copyright from "./Components/Copyright";
 
 function Home() {
@@ -18,7 +21,7 @@ function Home() {
     TraditionHouseF,
     TraditionHouseI,
   ];
-  const FoodImage = [Food_1, Food_2];
+  const FoodImage = [Food_1, Food_2, Food_3, Food_4, Food_5];
   const imageCount = images.length;
   const FoodImageCount = FoodImage.length;
 
