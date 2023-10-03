@@ -11,7 +11,6 @@ import Food_2 from "./Components/Images/Food_2.jpeg";
 import Food_3 from "./Components/Images/Food_3.png";
 import Food_4 from "./Components/Images/Food_4.png";
 import Food_5 from "./Components/Images/Food_5.png";
-import Copyright from "./Components/Copyright";
 
 function Home() {
   const images = [
@@ -52,7 +51,6 @@ function Home() {
             src={images[homeImage]}
             alt={`Cat ${homeImage + 1}`}
           />
-          <div className="Slide-content"></div>
         </div>
         <div className="Slide-food-container">
           <img
@@ -60,11 +58,8 @@ function Home() {
             src={FoodImage[homeFoodImage]}
             alt={`Cat ${homeFoodImage + 1}`}
           />
-          <div className="Slide-content"></div>
         </div>
       </div>
-
-      <Copyright />
     </div>
   );
 }

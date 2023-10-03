@@ -10,6 +10,7 @@ import Beverage from "./Components/MenuElement/Beverage";
 import Blended from "./Components/MenuElement/Blended";
 import Tea from "./Components/MenuElement/Tea";
 import Smoothie from "./Components/MenuElement/Smoothie";
+import Copyright from "./Components/Copyright";
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
         <Route path="/Tea" element={<Tea />} />
         <Route path="/Smoothie" element={<Smoothie />} />
       </Routes>
+
+      <Copyright />
     </div>
   );
 }

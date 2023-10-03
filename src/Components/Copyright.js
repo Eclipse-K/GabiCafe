@@ -2,15 +2,14 @@ import styled from "styled-components";
 
 const CopyFooter = styled.footer`
   display: flex;
+  position: relative;
   width: 100%;
   height: 50px;
   left: 0;
   bottom: 0;
   color: white;
   margin-top: 10px;
-  position: fixed;
   font-family: "Gugi", cursive;
-  z-index: 3;
 
   p {
     justify-content: center;
@@ -21,6 +20,10 @@ const CopyFooter = styled.footer`
 
   @media all and (max-width: 700px) {
     font-size: 10px;
+  }
+
+  @media all and (min-width: 720px) and (max-width: 1368px) {
+    margin-top: 100px;
   }
 `;
 

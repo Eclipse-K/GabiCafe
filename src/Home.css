@@ -29,15 +29,11 @@
   border: 5px solid white;
 }
 
-.Slide-content {
-  display: flex;
-  border: 5px solid white;
-  background-color: white;
-  width: 35%;
-  height: 30px;
-}
-
 @media all and (max-width: 700px) {
+  .Home {
+    height: 650px;
+  }
+
   .Slide-img-container {
     margin-top: 10%;
     margin-left: 5%;
@@ -57,34 +53,32 @@
     width: 70%;
     height: 200px;
   }
-
-  .Slide-content {
-    width: 70%;
-  }
 }
 
-@media all and (min-width: 768px) and (max-width: 1368px) {
+@media all and (min-width: 720px) and (max-width: 1368px) {
+  .Home {
+    height: 650px;
+  }
+
   .Slide-img-container {
-    margin-top: 5%;
+    margin-top: 6%;
     margin-left: 10%;
   }
 
   .Slide-img {
     width: 50%;
     height: 250px;
+    transform: rotate(-15deg);
   }
 
   .Slide-food-container {
-    margin-top: 5%;
+    margin-top: 3%;
     margin-right: 10%;
   }
 
   .Slide-Food-img {
     width: 50%;
     height: 250px;
-  }
-
-  .Slide-content {
-    width: 50%;
+    transform: rotate(13deg);
   }
 }
