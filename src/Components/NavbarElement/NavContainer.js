@@ -6,8 +6,6 @@ const NavContainer = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  box-shadow: 4px 0 5px gray;
-  border-bottom: 1px groove gray;
   z-index: 3;
 `;
 
