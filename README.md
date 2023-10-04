@@ -1,7 +1,7 @@
 # 📜 Information
 
 <center>
-<img  src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=GabiCafe&fontSize=90&width=400" />
+<img  src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=GabiCafe&fontSize=90" />
 </center>
 
 - 커피와 카페의 메뉴를 소개하는 목적으로 만든 사이트 [GabiCafe](https://GabiCafe.netlify.app).
