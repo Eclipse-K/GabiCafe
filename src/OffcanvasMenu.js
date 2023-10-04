@@ -13,7 +13,7 @@ function OffcanvasMenu({ closeOffcanvas }) {
       <OffCloseLink onClick={offcanvasClick}>
         <FiX className="OffIcon" />
       </OffCloseLink>
-      <OffLink onClick={offcanvasClick}>
+      <OffLink to="/Information" onClick={offcanvasClick}>
         <div className="OffMenu">Information</div>
       </OffLink>
       <OffLink to="/Menu" onClick={offcanvasClick}>

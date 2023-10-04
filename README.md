@@ -1,6 +1,8 @@
 # 📜 Information
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=GabiCafe&fontSize=90" />
+<center>
+<img  src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=GabiCafe&fontSize=90&width=400" />
+</center>
 
 - 커피와 카페의 메뉴를 소개하는 목적으로 만든 사이트 [GabiCafe](https://GabiCafe.netlify.app).
 
@@ -48,7 +50,7 @@
 
 ### ⌨️ `로그인`
 
-사실 로그인 페이지가 필요할지는 잘 모르겠지만 배운 것들을 페이지에 녹아내는 것도 필요하다고 판단되어 추가했습니다.
+- 사실 로그인 페이지가 필요할지는 잘 모르겠지만 배운 것들을 페이지에 녹아내는 것도 필요하다고 판단되어 추가했습니다.
 
 ### 🪧 `과정`
 

@@ -11,12 +11,14 @@ import Blended from "./Components/MenuElement/Blended";
 import Tea from "./Components/MenuElement/Tea";
 import Smoothie from "./Components/MenuElement/Smoothie";
 import Copyright from "./Components/Copyright";
+import Information from "./Components/Information";
 
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/Information" element={<Information />} />
         <Route path="/Menu" element={<Menu />} />
         <Route path="/Products" element={<Products />} />
         <Route path="/Login" element={<Login />} />
