@@ -2,7 +2,21 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { marked } from "marked";
 import Navbar from "../Navbar";
-import "./Information.css";
+import styled from "styled-components";
+
+const InfoStyledContent = styled.div`
+  border: 1px solid #ccc;
+  margin: 20px 0;
+  padding: 20px 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  width: 80%;
+  transform: translate(10%, 0);
+  text-align: left;
+`;
 
 function Information() {
   const [readmeContent, setReadmeContent] = useState("");
@@ -34,11 +48,7 @@ function Information() {
   return (
     <div>
       <Navbar />
-
-      <div
-        className="Readme-content"
-        dangerouslySetInnerHTML={{ __html: readmeContent }}
-      />
+      <InfoStyledContent dangerouslySetInnerHTML={{ __html: readmeContent }} />
     </div>
   );
 }
