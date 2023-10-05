@@ -26,8 +26,8 @@
 
 <center>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eclipse-K&layout=compact"><br><br>
-<img src="https://github-readme-stats.vercel.app/api?username=Eclipse-K&show_icons=true">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eclipse-K&layout=compact" width="80%"><br><br>
+<img src="https://github-readme-stats.vercel.app/api?username=Eclipse-K&show_icons=true" width="80%">
 
 </center>
 

@@ -16,6 +16,10 @@ const InfoStyledContent = styled.div`
   width: 80%;
   transform: translate(10%, 0);
   text-align: left;
+
+  @media all and (max-width: 400px) {
+    transform: translate(6%, 0);
+  }
 `;
 
 function Information() {
