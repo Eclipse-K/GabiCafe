@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import cafeLogo from "./Images/Logo.png";
+import cafeLogo from "./Images/LogoGabi.png";
 import LoginContainer from "./LoginElement/LoginContainer";
 import LoginLink from "./LoginElement/LoginLink";
 import LoginLabel from "./LoginElement/LoginLabel";
@@ -10,10 +10,10 @@ import KaKaoButton from "./LoginElement/KaKaoButton";
 const LoginLogo = styled.img`
   display: block;
   margin: 16px auto;
-  width: 200px;
+  width: 350px;
 
   @media all and (max-width: 700px) {
-    width: 150px;
+    width: 250px;
   }
 `;
 
