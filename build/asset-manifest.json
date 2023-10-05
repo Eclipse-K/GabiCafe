@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.73bf932d.css",
-    "main.js": "/static/js/main.d3124ee2.js",
+    "main.js": "/static/js/main.e464346a.js",
     "static/media/TraditionHouse_Inside.png": "/static/media/TraditionHouse_Inside.475681683bc9f43c7517.png",
     "static/media/Latte_menu.png": "/static/media/Latte_menu.8510d4d58be3669d7064.png",
     "static/media/Beverage.png": "/static/media/Beverage.83186dce939317479173.png",
@@ -18,16 +18,15 @@
     "static/media/Food_4.png": "/static/media/Food_4.66977fcff0bea3f09399.png",
     "static/media/Seokjojeon_Inside.jpeg": "/static/media/Seokjojeon_Inside.e7cbac9e360162ca7ead.jpeg",
     "static/media/Food_2.jpeg": "/static/media/Food_2.981e3728b20bf269935e.jpeg",
-    "static/media/Logo.png": "/static/media/Logo.a1e6150d3a1afeab7744.png",
     "static/media/LogoGabi.png": "/static/media/LogoGabi.85d185f606cdc2eddedc.png",
     "static/media/kakao.svg": "/static/media/kakao.e6c13ba334f03a0ae9a0c0db9920fe49.svg",
     "static/media/spinner.svg": "/static/media/spinner.c707a02a21900ebd807865c3c08be3a1.svg",
     "index.html": "/index.html",
     "main.73bf932d.css.map": "/static/css/main.73bf932d.css.map",
-    "main.d3124ee2.js.map": "/static/js/main.d3124ee2.js.map"
+    "main.e464346a.js.map": "/static/js/main.e464346a.js.map"
   },
   "entrypoints": [
     "static/css/main.73bf932d.css",
-    "static/js/main.d3124ee2.js"
+    "static/js/main.e464346a.js"
   ]
 }
