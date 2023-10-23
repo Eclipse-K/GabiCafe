@@ -5,7 +5,7 @@ import CafeMenuContainer from "./C-Menu-Element/CafeMenuContainer";
 import CafeMenuImgItem from "./C-Menu-Element/CafeMenuImgItem";
 import { Link } from "react-router-dom";
 import { CiUndo } from "react-icons/ci";
-import "./C-Menu-Element/ReverseButton.css";
+import ReverseButton from "./C-Menu-Element/ReverseButton";
 
 function EspressoMenu() {
   // eslint-disable-next-line
@@ -27,11 +27,11 @@ function EspressoMenu() {
           </CafeMenuImgItem>
         ))}
       </CafeMenuContainer>
-      <div className="Reverse-button">
+      <ReverseButton>
         <Link className="Reverse-link" to="/Menu">
           <CiUndo className="Reverse-icon" />
         </Link>
-      </div>
+      </ReverseButton>
     </div>
   );
 }
