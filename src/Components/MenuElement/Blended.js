@@ -3,6 +3,9 @@ import Navbar from "../../Navbar";
 import BlendJson from "./CafeMenu.json";
 import CafeMenuContainer from "./C-Menu-Element/CafeMenuContainer";
 import CafeMenuImgItem from "./C-Menu-Element/CafeMenuImgItem";
+import ReverseButton from "./C-Menu-Element/ReverseButton";
+import { Link } from "react-router-dom";
+import { CiUndo } from "react-icons/ci";
 
 function Blended() {
   // eslint-disable-next-line
@@ -24,6 +27,11 @@ function Blended() {
           </CafeMenuImgItem>
         ))}
       </CafeMenuContainer>
+      <ReverseButton>
+        <Link className="Reverse-link" to="/Menu">
+          <CiUndo className="Reverse-icon" />
+        </Link>
+      </ReverseButton>
     </div>
   );
 }
