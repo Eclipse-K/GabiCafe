@@ -14,9 +14,8 @@ function Tea() {
   return (
     <div>
       <Navbar />
+      <h1>Tea</h1>
       <CafeMenuContainer>
-        <h1>Tea</h1>
-
         {teaImages.map((tea, index) => (
           <CafeMenuImgItem key={index}>
             <img

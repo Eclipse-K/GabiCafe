@@ -14,9 +14,8 @@ function EspressoMenu() {
   return (
     <div>
       <Navbar />
+      <h1>Espresso Menu</h1>
       <CafeMenuContainer>
-        <h1>Espresso Menu</h1>
-
         {espImages.map((esp, index) => (
           <CafeMenuImgItem key={index}>
             <img

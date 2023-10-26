@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
 const CafeMenuImgItem = styled.div`
-  display: inline-block;
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 33%;
 
   img {
     width: 200px;

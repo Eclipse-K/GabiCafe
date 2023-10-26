@@ -14,9 +14,8 @@ function Blended() {
   return (
     <div>
       <Navbar />
+      <h1>Blended</h1>
       <CafeMenuContainer>
-        <h1>Blended</h1>
-
         {bleImages.map((blend, index) => (
           <CafeMenuImgItem key={index}>
             <img

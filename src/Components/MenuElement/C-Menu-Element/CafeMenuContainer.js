@@ -4,11 +4,11 @@ const CafeMenuContainer = styled.div`
   overflow: visible;
   background-color: white;
   width: 80%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
   transform: translate(10%, 0);
   font-family: "Gugi", cursive;
+  display: flex;
+  flex-wrap: wrap;
 
   h1 {
     height: 70px;

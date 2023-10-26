@@ -14,9 +14,8 @@ function LatteMenu() {
   return (
     <div>
       <Navbar />
+      <h1>Latte Menu</h1>
       <CafeMenuContainer>
-        <h1>Latte Menu</h1>
-
         {latImages.map((lat, index) => (
           <CafeMenuImgItem key={index}>
             <img

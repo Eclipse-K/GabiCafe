@@ -14,9 +14,8 @@ function Smoothie() {
   return (
     <div>
       <Navbar />
+      <h1>Smoothie</h1>
       <CafeMenuContainer>
-        <h1>Smoothie</h1>
-
         {smooImages.map((smoo, index) => (
           <CafeMenuImgItem key={index}>
             <img
