@@ -3,7 +3,7 @@ import styled from "styled-components";
 const CafeMenuImgItem = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: baseline;
+  align-items: center;
   width: 33%;
 
   img {

@@ -16,6 +16,10 @@ const CafeMenuContainer = styled.div`
     align-items: center;
     justify-content: center;
   }
+
+  @media all and (max-width: 700px) {
+    transform: translate(5%, 0);
+  }
 `;
 
 export default CafeMenuContainer;
