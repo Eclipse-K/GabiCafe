@@ -18,13 +18,15 @@ const CafeMenuImgItem = styled.div`
   }
 
   @media all and (max-width: 700px) {
+    width: 30%;
+
     img {
       width: 100px;
       height: 100px;
     }
 
     p {
-      font-size: 13px;
+      font-size: 10px;
     }
   }
 `;

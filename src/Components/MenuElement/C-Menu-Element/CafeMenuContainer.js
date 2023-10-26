@@ -18,7 +18,8 @@ const CafeMenuContainer = styled.div`
   }
 
   @media all and (max-width: 700px) {
-    transform: translate(5%, 0);
+    padding: 10px;
+    justify-content: space-between;
   }
 `;
 
