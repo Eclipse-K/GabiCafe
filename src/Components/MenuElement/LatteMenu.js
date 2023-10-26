@@ -4,6 +4,7 @@ import LatteJson from "./CafeMenu.json";
 import CafeMenuContainer from "./C-Menu-Element/CafeMenuContainer";
 import CafeMenuImgItem from "./C-Menu-Element/CafeMenuImgItem";
 import ReverseButton from "./C-Menu-Element/ReverseButton";
+import CafeMenuH1 from "./C-Menu-Element/CafeMenuH1";
 import { CiUndo } from "react-icons/ci";
 import { Link } from "react-router-dom";
 
@@ -14,7 +15,8 @@ function LatteMenu() {
   return (
     <div>
       <Navbar />
-      <h1>Latte Menu</h1>
+      <CafeMenuH1>Latte Menu</CafeMenuH1>
+
       <CafeMenuContainer>
         {latImages.map((lat, index) => (
           <CafeMenuImgItem key={index}>

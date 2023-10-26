@@ -6,6 +6,7 @@ import CafeMenuImgItem from "./C-Menu-Element/CafeMenuImgItem";
 import ReverseButton from "./C-Menu-Element/ReverseButton";
 import { Link } from "react-router-dom";
 import { CiUndo } from "react-icons/ci";
+import CafeMenuH1 from "./C-Menu-Element/CafeMenuH1";
 
 function Blended() {
   // eslint-disable-next-line
@@ -14,7 +15,7 @@ function Blended() {
   return (
     <div>
       <Navbar />
-      <h1>Blended</h1>
+      <CafeMenuH1>Blended</CafeMenuH1>
       <CafeMenuContainer>
         {bleImages.map((blend, index) => (
           <CafeMenuImgItem key={index}>

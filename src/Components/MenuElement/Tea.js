@@ -6,6 +6,7 @@ import CafeMenuImgItem from "./C-Menu-Element/CafeMenuImgItem";
 import ReverseButton from "./C-Menu-Element/ReverseButton";
 import { Link } from "react-router-dom";
 import { CiUndo } from "react-icons/ci";
+import CafeMenuH1 from "./C-Menu-Element/CafeMenuH1";
 
 function Tea() {
   // eslint-disable-next-line
@@ -14,7 +15,7 @@ function Tea() {
   return (
     <div>
       <Navbar />
-      <h1>Tea</h1>
+      <CafeMenuH1>Tea</CafeMenuH1>
       <CafeMenuContainer>
         {teaImages.map((tea, index) => (
           <CafeMenuImgItem key={index}>
