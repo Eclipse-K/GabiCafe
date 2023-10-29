@@ -1,0 +1,85 @@
+.Home {
+  width: 100%;
+  height: 700px;
+}
+
+.Slide-img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 1%;
+  margin-left: 20%;
+}
+
+.Slide-img {
+  width: 35%;
+  height: 300px;
+  border: 5px solid white;
+}
+
+.Slide-food-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 20%;
+}
+
+.Slide-Food-img {
+  width: 35%;
+  height: 300px;
+  border: 5px solid white;
+}
+
+@media all and (max-width: 700px) {
+  .Home {
+    height: 650px;
+  }
+
+  .Slide-img-container {
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+
+  .Slide-img {
+    width: 70%;
+    height: 200px;
+  }
+
+  .Slide-food-container {
+    margin-top: 5%;
+    margin-right: 5%;
+  }
+
+  .Slide-Food-img {
+    width: 70%;
+    height: 200px;
+  }
+}
+
+@media all and (min-width: 720px) and (max-width: 1368px) {
+  .Home {
+    height: 650px;
+  }
+
+  .Slide-img-container {
+    margin-top: 6%;
+    margin-left: 10%;
+  }
+
+  .Slide-img {
+    width: 50%;
+    height: 250px;
+    transform: rotate(-15deg);
+  }
+
+  .Slide-food-container {
+    margin-top: 3%;
+    margin-right: 10%;
+  }
+
+  .Slide-Food-img {
+    width: 50%;
+    height: 250px;
+    transform: rotate(13deg);
+  }
+}
