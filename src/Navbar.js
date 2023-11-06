@@ -80,9 +80,12 @@ function Navbar() {
             </div>
           ) : (
             //화면이 큰 경우, 모든 탭 표시
-            <>
-              <div>아이</div>
-            </>
+            <div className="Navbar-tab">
+              <Link to="/Information">Information</Link>
+              <Link to="/Menu">Menu</Link>
+              <Link to="/Products">Products</Link>
+              <Link to="/Login">Login</Link>
+            </div>
           )}
         </div>
 
