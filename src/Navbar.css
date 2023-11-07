@@ -58,3 +58,49 @@
 .offcanvas-button.hovered .line:last-child {
   transform: translateY(-6px); /* 마지막 라인을 위로 이동 */
 }
+
+.Navbar-tab {
+  display: flex;
+  list-style-type: none;
+}
+
+.Navbar-tab a {
+  display: block;
+  margin-right: 30px;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+/*
+.Navbar-tab a:hover {
+  text-decoration: underline;
+  color: rgba(42, 95, 156, 0.5);
+  width: 50%;
+}*/
+
+.Navbar-tab a::before,
+.Navbar-tab a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: white; /* 밑줄 색상을 원하는 색상으로 변경하세요. */
+  transition: all 0.2s; /* 애니메이션 지속 시간을 조절하세요. */
+}
+
+.Navbar-tab a::before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Navbar-tab a::after {
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.Navbar-tab a:hover::before,
+.Navbar-tab a:hover::after {
+  width: 100%;
+}
