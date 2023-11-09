@@ -21,7 +21,7 @@ const DarkMode = {
 function Navbar() {
   const [isCollapsed, setIsCollapsed] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(true);
 
   const toggleCollapse = () => {
     setIsCollapsed((prevCollapsed) => !prevCollapsed);
@@ -44,8 +44,6 @@ function Navbar() {
     window.addEventListener("resize", handleResize);
 
     if (isMobile) {
-      setIsCollapsed(true);
-    } else {
       setIsCollapsed(false);
     }
 
