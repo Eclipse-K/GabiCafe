@@ -43,10 +43,14 @@ function Navbar() {
 
     window.addEventListener("resize", handleResize);
 
+    if (isMobile) {
+      setIsCollapsed(true);
+    }
+
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, [isMobile]);
 
   return (
     <ThemeProvider theme={systemTheme === "dark" ? DarkMode : LightMode}>
