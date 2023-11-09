@@ -45,6 +45,8 @@ function Navbar() {
 
     if (isMobile) {
       setIsCollapsed(true);
+    } else {
+      setIsCollapsed(false);
     }
 
     return () => {
