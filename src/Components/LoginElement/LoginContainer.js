@@ -3,8 +3,9 @@ import LoginInput from "./LoginInput";
 import LoginButton from "./LoginButton";
 
 const LoginContainer = styled.div`
+  display: flex;
+  flex-direction: column;
   width: 400px;
-  margin: 40px auto;
   font-family: "Gugi", cursive;
 
   ${LoginInput} {
@@ -18,6 +19,7 @@ const LoginContainer = styled.div`
 
   @media all and (max-width: 768px) {
     width: 80%;
+    height: 900px;
   }
 `;
 
