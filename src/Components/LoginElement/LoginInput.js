@@ -3,10 +3,11 @@ import styled from "styled-components";
 const LoginInput = styled.input`
   border: none;
   border-bottom: 2px solid ${({ error }) => (error ? `#f44336` : `#eeeeee`)};
-  display: block;
+  display: flex;
   font-size: 16px;
   outline: none;
   padding: 8px 0;
+  margin: 10px 0 10px 0;
   width: 100%;
   font-family: "Gugi", cursive;
 
@@ -19,7 +20,7 @@ const LoginInput = styled.input`
 `}
 
   &::placeholder {
-    color: #56c17b;
+    color: gray;
   }
 `;
 

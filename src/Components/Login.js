@@ -20,6 +20,7 @@ const LoginLogo = styled.img`
 const LoginDescription = styled.div`
   color: #848187;
   text-align: center;
+  margin-bottom: 25px;
 `;
 
 const LoginBox = styled.div`
