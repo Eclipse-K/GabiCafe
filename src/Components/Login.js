@@ -6,6 +6,7 @@ import LoginLabel from "./LoginElement/LoginLabel";
 import LoginInput from "./LoginElement/LoginInput";
 import LoginButton from "./LoginElement/LoginButton";
 import KaKaoButton from "./LoginElement/KaKaoButton";
+import GoogleButton from "./LoginElement/GoogleButton";
 
 const LoginLogo = styled.img`
   display: block;
@@ -56,6 +57,7 @@ function Login() {
           />
           <LoginButton type="submit">로그인 하기</LoginButton>
         </form>
+        <GoogleButton />
         <KaKaoButton />
       </LoginContainer>
     </LoginBox>
