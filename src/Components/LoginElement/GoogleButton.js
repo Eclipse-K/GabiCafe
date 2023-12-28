@@ -14,6 +14,7 @@ const GoogleStyleButton = styled.button`
   padding: 0;
   border: 0;
   border-radius: 10px;
+  background-color: #f2f2f2;
   cursor: pointer;
 `;
 
