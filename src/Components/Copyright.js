@@ -4,7 +4,7 @@ const CopyFooter = styled.footer`
   display: flex;
   position: relative;
   width: 100%;
-  height: 50px;
+  height: 60px;
   left: 0;
   bottom: 0;
   color: white;

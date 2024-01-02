@@ -1,0 +1,34 @@
+.MainImageBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainImage {
+  border: 5px double black;
+  width: 50%;
+  height: 500px;
+}
+
+.ProductsBorderArea {
+  display: flex;
+  width: 100%;
+  overflow: auto;
+}
+
+@media all and (min-width: 281px) and (max-width: 432px) {
+  .Products {
+    height: 832px;
+  }
+
+  .mainImage {
+    width: 300px;
+    height: 300px;
+  }
+
+  .ProductsBorderArea {
+    display: flex;
+    width: 100%;
+    overflow: auto;
+  }
+}

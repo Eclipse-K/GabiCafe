@@ -4,6 +4,7 @@ import ProductsContainer from "./ProductsElement/ProductsContainer";
 import ProductsList from "./ProductsElement/ProductsList";
 import ProductsBox from "./ProductsElement/ProductsBox";
 import ProJson from "./Products.json";
+import "./Products.css";
 
 function Products() {
   // eslint-disable-next-line
@@ -24,22 +25,24 @@ function Products() {
   const currentProduct = products[currentIndex];
 
   return (
-    <div>
+    <div className="Products">
       <Navbar />
 
       <ProductsContainer>
         <ProductsList>
           <h1>- Products -</h1>
-          <img
-            src={
-              process.env.PUBLIC_URL + `/images/${currentProduct.productUrl}`
-            }
-            alt={currentProduct.product_name}
-            className="mainImage"
-            onClick={handleImageClick}
-          />
+          <div className="MainImageBox">
+            <img
+              src={
+                process.env.PUBLIC_URL + `/images/${currentProduct.productUrl}`
+              }
+              alt={currentProduct.product_name}
+              className="mainImage"
+              onClick={handleImageClick}
+            />
+          </div>
 
-          <div>
+          <div className="ProductsBorderArea">
             {products.map((product, index) => (
               <ProductsBox key={index}>
                 <img

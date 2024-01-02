@@ -17,7 +17,7 @@ const InfoStyledContent = styled.div`
   transform: translate(10%, 0);
   text-align: left;
 
-  @media all and (max-width: 400px) {
+  @media all and (min-width: 281px) and (max-width: 432px) {
     transform: translate(6%, 0);
   }
 `;
