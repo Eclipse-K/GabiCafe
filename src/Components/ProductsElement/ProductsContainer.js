@@ -7,7 +7,7 @@ const ProductsContainer = styled.div`
   margin-top: 20px;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  transform: translate(10%, 0);
+  transform: translate(13%, 0);
   font-family: "Gugi", cursive;
 `;
 
