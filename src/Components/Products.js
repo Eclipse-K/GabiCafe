@@ -1,8 +1,11 @@
 import Navbar from "../Navbar";
 import { useState } from "react";
 import ProductsContainer from "./ProductsElement/ProductsContainer";
-import ProductsList from "./ProductsElement/ProductsList";
 import ProductsBox from "./ProductsElement/ProductsBox";
+import ProductsList from "./ProductsElement/ProductsList";
+import ProductsListArea from "./ProductsElement/ProductsListArea";
+import ProductsLargeImgBox from "./ProductsElement/ProductsLargeImgBox";
+import LargeImg from "./ProductsElement/ProductsLImg";
 import ProJson from "./Products.json";
 import "./Products.css";
 
@@ -29,10 +32,10 @@ function Products() {
       <Navbar />
 
       <ProductsContainer>
-        <ProductsList>
+        <ProductsBox>
           <h1>- Products -</h1>
-          <div className="MainImageBox">
-            <img
+          <ProductsLargeImgBox>
+            <LargeImg
               src={
                 process.env.PUBLIC_URL + `/images/${currentProduct.productUrl}`
               }
@@ -40,24 +43,24 @@ function Products() {
               className="mainImage"
               onClick={handleImageClick}
             />
-          </div>
+          </ProductsLargeImgBox>
 
-          <div className="ProductsBorderArea">
+          <ProductsListArea>
             {products.map((product, index) => (
-              <ProductsBox key={index}>
+              <ProductsList key={index}>
                 <img
                   src={process.env.PUBLIC_URL + `/images/${product.productUrl}`}
                   alt={product.product_name}
                   onClick={() => handleProductImage(index)}
                 />
                 <p>{product.product_name}</p>
-              </ProductsBox>
+              </ProductsList>
             ))}
-          </div>
-        </ProductsList>
+          </ProductsListArea>
+        </ProductsBox>
       </ProductsContainer>
     </div>
   );
-}
+} //no way
 
 export default Products;
