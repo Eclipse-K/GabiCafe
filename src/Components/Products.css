@@ -1,3 +1,27 @@
+.Temporary {
+  display: flex;
+  justify-content: center;
+}
+
+.DetailPage {
+  display: flex;
+  flex-direction: column;
+}
+
+.ButtonGroup {
+  display: flex;
+}
+
+.buybutton {
+  background-color: black;
+  color: white;
+}
+
+.addbutton {
+  background-color: white;
+  border: 1px solid black;
+}
+
 @media all and (min-width: 281px) and (max-width: 432px) {
   .Products {
     height: 832px;
