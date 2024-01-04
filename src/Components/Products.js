@@ -34,16 +34,28 @@ function Products() {
       <ProductsContainer>
         <ProductsBox>
           <h1>- Products -</h1>
-          <ProductsLargeImgBox>
-            <LargeImg
-              src={
-                process.env.PUBLIC_URL + `/images/${currentProduct.productUrl}`
-              }
-              alt={currentProduct.product_name}
-              className="mainImage"
-              onClick={handleImageClick}
-            />
-          </ProductsLargeImgBox>
+          <div className="Temporary">
+            <ProductsLargeImgBox>
+              <LargeImg
+                src={
+                  process.env.PUBLIC_URL +
+                  `/images/${currentProduct.productUrl}`
+                }
+                alt={currentProduct.product_name}
+                className="mainImage"
+                onClick={handleImageClick}
+              />
+            </ProductsLargeImgBox>
+            <div className="DetailPage">
+              <p>{currentProduct.product_name}</p>
+              <p>상세 내용</p>
+              <p>금액</p>
+              <div className="ButtonGroup">
+                <button className="buybutton">BUY NOW</button>
+                <button className="addbutton">ADD CART</button>
+              </div>
+            </div>
+          </div>
 
           <ProductsListArea>
             {products.map((product, index) => (
