@@ -8,6 +8,13 @@
   flex-direction: column;
 }
 
+.wishbutton {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  text-align: right;
+}
+
 .ButtonGroup {
   display: flex;
 }
@@ -15,11 +22,14 @@
 .buybutton {
   background-color: black;
   color: white;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
 .addbutton {
   background-color: white;
   border: 1px solid black;
+  cursor: pointer;
 }
 
 @media all and (min-width: 281px) and (max-width: 432px) {

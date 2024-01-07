@@ -46,10 +46,13 @@ function Products() {
                 onClick={handleImageClick}
               />
             </ProductsLargeImgBox>
+
             <div className="DetailPage">
               <p>{currentProduct.product_name}</p>
               <p>상세 내용</p>
-              <p>금액</p>
+              <p>상품 금액</p>
+              <button className="wishbutton">+ Wish List</button>
+
               <div className="ButtonGroup">
                 <button className="buybutton">BUY NOW</button>
                 <button className="addbutton">ADD CART</button>
