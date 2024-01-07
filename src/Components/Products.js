@@ -50,7 +50,9 @@ function Products() {
             <div className="DetailPage">
               <p>{currentProduct.product_name}</p>
               <p>상세 내용</p>
+              <hr />
               <p>상품 금액</p>
+              <hr />
               <button className="wishbutton">+ Wish List</button>
 
               <div className="ButtonGroup">
