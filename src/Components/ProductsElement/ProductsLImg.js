@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 const LargeImg = styled.img`
   border: 5px double black;
-  width: 50%;
+  width: 500px;
   height: 500px;
+  margin-left: 10px;
 
   @media all and (min-width: 281px) and (max-width: 432px) {
     width: 200px;

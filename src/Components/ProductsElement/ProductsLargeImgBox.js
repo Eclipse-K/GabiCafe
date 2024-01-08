@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 const ProductsLargeImgBox = styled.div`
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+  width: 500px;
 `;
 
 export default ProductsLargeImgBox;

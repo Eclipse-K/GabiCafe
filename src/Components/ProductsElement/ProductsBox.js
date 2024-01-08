@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 const ProductsBox = styled.div`
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   margin-top: 10px;
   width: 100%;
 

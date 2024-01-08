@@ -5,8 +5,8 @@ const ProductsList = styled.div`
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 200px;
-  height: 240px;
+  width: 100px;
+  height: 100px;
   border: 2px solid rgb(7, 7, 7);
   background-color: black;
   margin-left: 10px;
@@ -14,13 +14,8 @@ const ProductsList = styled.div`
   margin-top: 10px;
 
   img {
-    width: 196px;
-    height: 200px;
-  }
-
-  p {
-    color: white;
-    margin: 0;
+    width: 100px;
+    height: 100px;
   }
 
   @media all and (min-width: 281px) and (max-width: 432px) {

@@ -45,6 +45,19 @@ function Products() {
                 className="mainImage"
                 onClick={handleImageClick}
               />
+              <ProductsListArea>
+                {products.map((product, index) => (
+                  <ProductsList key={index}>
+                    <img
+                      src={
+                        process.env.PUBLIC_URL + `/images/${product.productUrl}`
+                      }
+                      alt={product.product_name}
+                      onClick={() => handleProductImage(index)}
+                    />
+                  </ProductsList>
+                ))}
+              </ProductsListArea>
             </ProductsLargeImgBox>
 
             <div className="DetailPage">
@@ -61,19 +74,6 @@ function Products() {
               </div>
             </div>
           </div>
-
-          <ProductsListArea>
-            {products.map((product, index) => (
-              <ProductsList key={index}>
-                <img
-                  src={process.env.PUBLIC_URL + `/images/${product.productUrl}`}
-                  alt={product.product_name}
-                  onClick={() => handleProductImage(index)}
-                />
-                <p>{product.product_name}</p>
-              </ProductsList>
-            ))}
-          </ProductsListArea>
         </ProductsBox>
       </ProductsContainer>
     </div>
