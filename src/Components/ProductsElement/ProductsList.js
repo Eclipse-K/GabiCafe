@@ -20,11 +20,11 @@ const ProductsList = styled.div`
 
   @media all and (min-width: 281px) and (max-width: 432px) {
     width: 100%;
-    height: 100px;
+    height: 40px;
 
     img {
-      width: 70px;
-      height: 70px;
+      width: 40px;
+      height: 40px;
     }
 
     p {

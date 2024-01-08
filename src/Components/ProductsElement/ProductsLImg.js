@@ -7,8 +7,8 @@ const LargeImg = styled.img`
   margin-left: 10px;
 
   @media all and (min-width: 281px) and (max-width: 432px) {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
   }
 
   @media all and (min-width: 600px) and (max-width: 1180px) {

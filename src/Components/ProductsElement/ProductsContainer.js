@@ -9,6 +9,10 @@ const ProductsContainer = styled.div`
   padding-bottom: 20px;
   transform: translate(6%, 0);
   font-family: "Gugi", cursive;
+
+  @media all and (min-width: 281px) and (max-width: 432px) {
+    height: 700px;
+  }
 `;
 
 export default ProductsContainer;
