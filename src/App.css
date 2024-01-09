@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Dongle&family=Gugi&display=swap");
+
+.App {
+  text-align: center;
+}
+.light-mode {
+  background-color: #c2c2b1;
+  color: #000000;
+}
+
+.dark-mode {
+  background-color: rgb(35, 35, 35);
+  color: #000000;
+}
+
+@media all and (min-width: 281px) and (max-width: 432px) {
+  .App {
+    height: 870px;
+  }
+}
