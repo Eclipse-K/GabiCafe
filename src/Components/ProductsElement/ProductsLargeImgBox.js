@@ -11,6 +11,9 @@ const ProductsLargeImgBox = styled.div`
     width: 270px;
     justify-content: center;
   }
+  @media all and (min-width: 450px) and (max-width: 1023px) {
+    width: 400px;
+  }
 `;
 
 export default ProductsLargeImgBox;

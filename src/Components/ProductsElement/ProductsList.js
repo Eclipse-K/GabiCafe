@@ -16,6 +16,7 @@ const ProductsList = styled.div`
   img {
     width: 100px;
     height: 100px;
+    cursor: pointer;
   }
 
   @media all and (min-width: 281px) and (max-width: 432px) {

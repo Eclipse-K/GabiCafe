@@ -11,9 +11,9 @@ const LargeImg = styled.img`
     height: 250px;
   }
 
-  @media all and (min-width: 600px) and (max-width: 1180px) {
-    width: 400px;
-    height: 400px;
+  @media all and (min-width: 450px) and (max-width: 1180px) {
+    width: 300px;
+    height: 300px;
   }
 `;
 
