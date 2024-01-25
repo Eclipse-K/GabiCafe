@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3da3829b.css",
+    "main.js": "/static/js/main.9b72f42a.js",
+    "static/media/TraditionHouse_Inside.png": "/static/media/TraditionHouse_Inside.475681683bc9f43c7517.png",
+    "static/media/Latte_menu.png": "/static/media/Latte_menu.8510d4d58be3669d7064.png",
+    "static/media/Beverage.png": "/static/media/Beverage.83186dce939317479173.png",
+    "static/media/TraditionHouse_Front.png": "/static/media/TraditionHouse_Front.afb3f582b6991a4c1e79.png",
+    "static/media/Espresso_Menu.png": "/static/media/Espresso_Menu.fe053fcfb8f345ca316b.png",
+    "static/media/Tea.png": "/static/media/Tea.58480e4b70e80f3bc878.png",
+    "static/media/Smoothie.png": "/static/media/Smoothie.2a37a1688b457c9c97b0.png",
+    "static/media/Food_1.png": "/static/media/Food_1.96a0e10258ae977d11cb.png",
+    "static/media/Blended.png": "/static/media/Blended.3e06c2cc12436e593cb1.png",
+    "static/media/DeoksugungJeonggwanheon.jpeg": "/static/media/DeoksugungJeonggwanheon.48795d9eefef5e089d99.jpeg",
+    "static/media/Food_3.png": "/static/media/Food_3.2b2d9182b6818e6e6715.png",
+    "static/media/Deoksugung_Seokjojeon.jpeg": "/static/media/Deoksugung_Seokjojeon.0b9de097797fa5f126a8.jpeg",
+    "static/media/Food_5.png": "/static/media/Food_5.b9d55ed42576b29ff7bb.png",
+    "static/media/Food_4.png": "/static/media/Food_4.66977fcff0bea3f09399.png",
+    "static/media/Seokjojeon_Inside.jpeg": "/static/media/Seokjojeon_Inside.e7cbac9e360162ca7ead.jpeg",
+    "static/media/Food_2.jpeg": "/static/media/Food_2.981e3728b20bf269935e.jpeg",
+    "static/media/LogoGabi.png": "/static/media/LogoGabi.85d185f606cdc2eddedc.png",
+    "static/media/Google.svg": "/static/media/Google.d397eb1bcbd0457eec0ff62f68f6bbb7.svg",
+    "static/media/kakao.svg": "/static/media/kakao.e6c13ba334f03a0ae9a0c0db9920fe49.svg",
+    "static/media/spinner.svg": "/static/media/spinner.c707a02a21900ebd807865c3c08be3a1.svg",
+    "index.html": "/index.html",
+    "main.3da3829b.css.map": "/static/css/main.3da3829b.css.map",
+    "main.9b72f42a.js.map": "/static/js/main.9b72f42a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3da3829b.css",
+    "static/js/main.9b72f42a.js"
+  ]
+}

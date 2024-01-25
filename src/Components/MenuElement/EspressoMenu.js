@@ -4,9 +4,7 @@ import EspJson from "./CafeMenu.json";
 import CafeMenuContainer from "./C-Menu-Element/CafeMenuContainer";
 import CafeMenuImgItem from "./C-Menu-Element/CafeMenuImgItem";
 import CafeMenuH1 from "./C-Menu-Element/CafeMenuH1";
-import { Link } from "react-router-dom";
-import { CiUndo } from "react-icons/ci";
-import ReverseButton from "./C-Menu-Element/ReverseButton";
+import CafeLink from "./C-Menu-Element/CafeLink";
 
 function EspressoMenu() {
   // eslint-disable-next-line
@@ -15,7 +13,9 @@ function EspressoMenu() {
   return (
     <div>
       <Navbar />
-      <CafeMenuH1>Espresso Menu</CafeMenuH1>
+      <CafeMenuH1>
+        <CafeLink to="/Menu">Espresso Menu</CafeLink>
+      </CafeMenuH1>
       <CafeMenuContainer>
         {espImages.map((esp, index) => (
           <CafeMenuImgItem key={index}>
@@ -27,11 +27,6 @@ function EspressoMenu() {
           </CafeMenuImgItem>
         ))}
       </CafeMenuContainer>
-      <ReverseButton>
-        <Link className="Reverse-link" to="/Menu">
-          <CiUndo className="Reverse-icon" />
-        </Link>
-      </ReverseButton>
     </div>
   );
 }
