@@ -7,6 +7,7 @@ import ReverseButton from "./C-Menu-Element/ReverseButton";
 import { Link } from "react-router-dom";
 import { CiUndo } from "react-icons/ci";
 import CafeMenuH1 from "./C-Menu-Element/CafeMenuH1";
+import CafeLink from "./C-Menu-Element/CafeLink.js";
 
 function Smoothie() {
   // eslint-disable-next-line
@@ -15,7 +16,10 @@ function Smoothie() {
   return (
     <div>
       <Navbar />
-      <CafeMenuH1>Smoothie</CafeMenuH1>
+      <CafeMenuH1>
+        <CafeLink to="/Menu">Smoothie</CafeLink>
+      </CafeMenuH1>
+
       <CafeMenuContainer>
         {smooImages.map((smoo, index) => (
           <CafeMenuImgItem key={index}>

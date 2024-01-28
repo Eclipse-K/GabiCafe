@@ -7,6 +7,7 @@ import ReverseButton from "./C-Menu-Element/ReverseButton";
 import CafeMenuH1 from "./C-Menu-Element/CafeMenuH1";
 import { CiUndo } from "react-icons/ci";
 import { Link } from "react-router-dom";
+import CafeLink from "./C-Menu-Element/CafeLink";
 
 function LatteMenu() {
   // eslint-disable-next-line
@@ -15,7 +16,9 @@ function LatteMenu() {
   return (
     <div>
       <Navbar />
-      <CafeMenuH1>Latte Menu</CafeMenuH1>
+      <CafeMenuH1>
+        <CafeLink to="/Menu">Latte Menu</CafeLink>
+      </CafeMenuH1>
 
       <CafeMenuContainer>
         {latImages.map((lat, index) => (
