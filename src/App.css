@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Dongle&family=Gugi&display=swap");
 
 .App {
+  position: relative;
   text-align: center;
   height: 1500px;
 }

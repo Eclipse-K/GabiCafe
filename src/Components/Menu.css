@@ -1,3 +1,7 @@
+.TheMenu {
+  position: relative;
+}
+
 .grid-container {
   display: flex;
   flex-wrap: wrap;

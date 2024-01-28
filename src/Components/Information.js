@@ -12,13 +12,15 @@ const InfoStyledContent = styled.div`
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  min-height: 300px;
+  height: 1200px;
   width: 80%;
   transform: translate(10%, 0);
   text-align: left;
+  overflow: scroll;
 
   @media all and (min-width: 281px) and (max-width: 432px) {
     transform: translate(6%, 0);
+    height: 700px;
   }
 `;
 

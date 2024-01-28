@@ -10,7 +10,7 @@ import Navbar from "../Navbar";
 
 function Menu() {
   return (
-    <div>
+    <div className="TheMenu">
       <Navbar />
       <div className="grid-container">
         <Link className="grid-box" to="/EspressoMenu">
