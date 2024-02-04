@@ -12,7 +12,7 @@ const InfoStyledContent = styled.div`
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  height: 1200px;
+  height: 950px;
   width: 80%;
   transform: translate(10%, 0);
   text-align: left;

@@ -12,16 +12,16 @@ import Smoothie from "./Components/MenuElement/Smoothie";
 import Copyright from "./Components/Copyright";
 import Information from "./Components/Information";
 import { useState, useEffect } from "react";
-import ReactSwitch from "react-switch";
+// import ReactSwitch from "react-switch";
 import Home from "./Home";
 
 function App() {
   const [modeChange, setModeChange] = useState(false);
 
   // 모드 변경 함수
-  const toggleModeChange = () => {
-    setModeChange(!modeChange);
-  };
+  // const toggleModeChange = () => {
+  //   setModeChange(!modeChange);
+  // };
 
   // 사용자의 환경 설정에 따라 모드를 자동으로 변경
   useEffect(() => {
@@ -47,7 +47,7 @@ function App() {
           <Route path="/Tea" element={<Tea />} />
           <Route path="/Smoothie" element={<Smoothie />} />
         </Routes>
-        <ReactSwitch onChange={toggleModeChange} checked={modeChange} />
+        {/* <ReactSwitch onChange={toggleModeChange} checked={modeChange} /> */}
         <Copyright />
       </div>
     </div>

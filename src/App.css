@@ -3,8 +3,9 @@
 .App {
   position: relative;
   text-align: center;
-  height: 1500px;
+  height: 1200px;
 }
+
 .light-mode {
   background-color: #c2c2b1;
   color: #000000;
