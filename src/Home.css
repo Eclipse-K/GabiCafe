@@ -11,6 +11,7 @@
 
 .Slide-img-container {
   position: relative;
+  top: 150px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -20,7 +21,6 @@
 
 .Slide-img-box {
   position: absolute;
-  top: 150px;
   left: 200px;
   width: 35%;
   height: 350px;
@@ -55,7 +55,6 @@
 .Slide-Fimg-box {
   position: absolute;
   top: 500px;
-  bottom: 0;
   right: 12%;
   width: 30%;
   height: 300px;
@@ -72,52 +71,80 @@
 
 @media all and (min-width: 281px) and (max-width: 432px) {
   .Home {
-    height: 700px;
+    height: 750px;
+    background-size: 90% 700px;
   }
 
   .Slide-img-container {
-    margin-top: 10%;
-    margin-left: 5%;
+    top: 130px;
+  }
+
+  .Slide-img-box {
+    left: 0;
+    width: 60%;
+    height: 200px;
+  }
+
+  .img-pin {
+    width: 30px;
+    height: 30px;
   }
 
   .Slide-img {
     width: 90%;
-    height: 200px;
+    height: 150px;
   }
 
   .Slide-food-container {
-    margin-top: 5%;
-    margin-right: 5%;
+    bottom: 20%;
+  }
+
+  .Slide-Fimg-box {
+    right: 5%;
+    width: 60%;
+    height: 200px;
   }
 
   .Slide-Food-img {
-    width: 70%;
-    height: 200px;
+    width: 90%;
+    height: 150px;
   }
 }
 
 @media all and (min-width: 450px) and (max-width: 1023px) {
   .Home {
-    background-size: 100%;
+    height: 800px;
+    background-size: 90% 750px;
   }
 
   .Slide-img-container {
+    top: 15%;
     margin-top: 6%;
     margin-left: 10%;
   }
 
+  .Slide-img-box {
+    left: 13%;
+  }
+
   .Slide-img {
-    width: 50%;
+    width: 90%;
     height: 250px;
   }
 
   .Slide-food-container {
+    bottom: 20%;
     margin-top: 3%;
     margin-right: 10%;
   }
 
+  .Slide-Fimg-box {
+    width: 35%;
+    height: 350px;
+  }
+
   .Slide-Food-img {
-    width: 50%;
+    width: 90%;
     height: 250px;
   }
 }
