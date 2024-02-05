@@ -11,6 +11,7 @@ import Food_2 from "./Components/Images/Food_2.jpeg";
 import Food_3 from "./Components/Images/Food_3.png";
 import Food_4 from "./Components/Images/Food_4.png";
 import Food_5 from "./Components/Images/Food_5.png";
+import Pin from "./Components/Images/Pin.png";
 
 function Home() {
   const images = [
@@ -46,18 +47,24 @@ function Home() {
 
       <div className="Home">
         <div className="Slide-img-container">
-          <img
-            className="Slide-img"
-            src={images[homeImage]}
-            alt={`Cat ${homeImage + 1}`}
-          />
+          <div className="Slide-img-box">
+            <img className="img-pin" src={Pin} alt="Pin" />
+            <img
+              className="Slide-img"
+              src={images[homeImage]}
+              alt={`Cat ${homeImage + 1}`}
+            />
+          </div>
         </div>
         <div className="Slide-food-container">
-          <img
-            className="Slide-Food-img"
-            src={FoodImage[homeFoodImage]}
-            alt={`Cat ${homeFoodImage + 1}`}
-          />
+          <div className="Slide-Fimg-box">
+            <img className="img-pin" src={Pin} alt="Pin" />
+            <img
+              className="Slide-Food-img"
+              src={FoodImage[homeFoodImage]}
+              alt={`Cat ${homeFoodImage + 1}`}
+            />
+          </div>
         </div>
       </div>
     </div>
