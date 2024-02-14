@@ -8,12 +8,16 @@
 
 .light-mode {
   background-color: #c2c2b1;
+  background-attachment: fixed;
+  overflow: auto;
   color: #000000;
   height: 100%;
 }
 
 .dark-mode {
   background-color: rgb(35, 35, 35);
+  background-attachment: fixed;
+  overflow: auto;
   color: #000000;
   height: 100%;
 }

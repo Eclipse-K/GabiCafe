@@ -45,7 +45,7 @@ function Home() {
       <Navbar />
 
       <div className="Home">
-        <div className="Slide-img-container">
+        <div className="Slide-container">
           <div className="Slide-img-box">
             <img
               className="Slide-img"
@@ -57,12 +57,14 @@ function Home() {
           <div className="index-content">
             <div className="index-content-title">
               <h2>공지사항</h2>
+              <button>more +</button>
             </div>
           </div>
 
           <div className="index-information">
             <div className="index-information-title">
               <h2>안내</h2>
+              <button>more +</button>
             </div>
           </div>
 
