@@ -4,7 +4,6 @@ const ProductsLargeImgBox = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: auto;
   width: 500px;
 
   @media all and (min-width: 281px) and (max-width: 432px) {
