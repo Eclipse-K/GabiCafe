@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2b4f69c2.css",
-    "main.js": "/static/js/main.f93390f3.js",
+    "main.css": "/static/css/main.989e6bb8.css",
+    "main.js": "/static/js/main.c02d7b68.js",
     "static/media/TraditionHouse_Inside.png": "/static/media/TraditionHouse_Inside.475681683bc9f43c7517.png",
     "static/media/Latte_menu.png": "/static/media/Latte_menu.8510d4d58be3669d7064.png",
     "static/media/Beverage.png": "/static/media/Beverage.83186dce939317479173.png",
@@ -23,11 +23,11 @@
     "static/media/kakao.svg": "/static/media/kakao.e6c13ba334f03a0ae9a0c0db9920fe49.svg",
     "static/media/spinner.svg": "/static/media/spinner.c707a02a21900ebd807865c3c08be3a1.svg",
     "index.html": "/index.html",
-    "main.2b4f69c2.css.map": "/static/css/main.2b4f69c2.css.map",
-    "main.f93390f3.js.map": "/static/js/main.f93390f3.js.map"
+    "main.989e6bb8.css.map": "/static/css/main.989e6bb8.css.map",
+    "main.c02d7b68.js.map": "/static/js/main.c02d7b68.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b4f69c2.css",
-    "static/js/main.f93390f3.js"
+    "static/css/main.989e6bb8.css",
+    "static/js/main.c02d7b68.js"
   ]
 }
