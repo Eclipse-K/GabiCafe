@@ -1,5 +1,5 @@
 import Navbar from "../Navbar";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ProductsContainer from "./ProductsElement/ProductsContainer";
 import ProductsBox from "./ProductsElement/ProductsBox";
 import ProductsList from "./ProductsElement/ProductsList";
@@ -13,6 +13,10 @@ function Products() {
   // eslint-disable-next-line
   const [products, setProducts] = useState(ProJson.products);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [dragging, setDragging] = useState(false);
+  const [dragStartX, setDragStartX] = useState(0);
+  // eslint-disable-next-line
+  const [scrollLeft, setScrollLeft] = useState(0);
 
   const handleImageClick = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % products.length);
@@ -26,6 +30,43 @@ function Products() {
 
   // 현재 선택된 제품 정보 가져오기
   const currentProduct = products[currentIndex];
+
+  useEffect(() => {
+    const handleDragStart = (e) => {
+      setDragging(true);
+      setDragStartX(e.clientX);
+      e.preventDefault();
+    };
+
+    const handleDragEnd = () => {
+      setDragging(false);
+    };
+
+    const handleDragMove = (e) => {
+      if (!dragging) return;
+
+      const dragDistance = e.clientX - dragStartX;
+
+      // 조절할 스크롤 양을 계산하고 적용
+      const productListArea = document.getElementById("scrollable-div");
+      if (productListArea) {
+        productListArea.scrollLeft = productListArea.scrollLeft - dragDistance;
+      }
+    };
+
+    // 이벤트 핸들러 등록
+    const productListArea = document.getElementById("scrollable-div");
+    productListArea.addEventListener("mousedown", handleDragStart);
+    document.addEventListener("mouseup", handleDragEnd);
+    document.addEventListener("mousemove", handleDragMove);
+
+    // Clean up 이후에 이벤트 핸들러 제거
+    return () => {
+      productListArea.removeEventListener("mousedown", handleDragStart);
+      document.removeEventListener("mouseup", handleDragEnd);
+      document.removeEventListener("mousemove", handleDragMove);
+    };
+  }, [dragging, dragStartX, scrollLeft]);
 
   return (
     <div className="Products">
@@ -45,7 +86,7 @@ function Products() {
                 className="mainImage"
                 onClick={handleImageClick}
               />
-              <ProductsListArea>
+              <ProductsListArea id="scrollable-div">
                 {products.map((product, index) => (
                   <ProductsList key={index}>
                     <img
