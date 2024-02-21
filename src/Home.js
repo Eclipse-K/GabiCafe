@@ -41,7 +41,7 @@ function Home() {
   }, [imageCount, FoodImageCount]);
 
   return (
-    <div>
+    <div className="Home-Container">
       <Navbar />
 
       <div className="Home">
