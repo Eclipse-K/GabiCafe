@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { marked } from "marked";
-import Navbar from "../Navbar";
 import styled from "styled-components";
 
 const InfoStyledContent = styled.div`
@@ -53,7 +52,6 @@ function Information() {
 
   return (
     <div>
-      <Navbar />
       <InfoStyledContent dangerouslySetInnerHTML={{ __html: readmeContent }} />
     </div>
   );

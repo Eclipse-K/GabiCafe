@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Navbar from "../../Navbar";
 import EspJson from "./CafeMenu.json";
 import CafeMenuContainer from "./C-Menu-Element/CafeMenuContainer";
 import CafeMenuImgItem from "./C-Menu-Element/CafeMenuImgItem";
@@ -12,7 +11,6 @@ function EspressoMenu() {
 
   return (
     <div>
-      <Navbar />
       <CafeMenuH1>
         <CafeLink to="/Menu">Espresso Menu</CafeLink>
       </CafeMenuH1>

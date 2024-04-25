@@ -1,4 +1,3 @@
-import Navbar from "../Navbar";
 import { useEffect, useState } from "react";
 import ProductsContainer from "./ProductsElement/ProductsContainer";
 import ProductsBox from "./ProductsElement/ProductsBox";
@@ -70,8 +69,6 @@ function Products() {
 
   return (
     <div className="Products">
-      <Navbar />
-
       <ProductsContainer>
         <ProductsBox>
           <h1>- Products -</h1>

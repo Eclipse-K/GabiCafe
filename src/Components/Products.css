@@ -1,3 +1,11 @@
+.Products {
+  height: 1100px;
+}
+
+.Products h1 {
+  text-align: center;
+}
+
 .Temporary {
   display: flex;
   justify-content: space-evenly;

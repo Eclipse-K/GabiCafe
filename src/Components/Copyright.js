@@ -2,11 +2,8 @@ import styled from "styled-components";
 
 const CopyFooter = styled.footer`
   display: flex;
-  position: absolute;
   width: 100%;
   height: 60px;
-  left: 0;
-  bottom: 0;
   color: white;
   margin-top: 10px;
   font-family: "Gugi", cursive;

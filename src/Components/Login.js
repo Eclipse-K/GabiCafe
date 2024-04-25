@@ -28,6 +28,7 @@ const LoginBox = styled.div`
   display: flex;
   justify-content: center;
   text-align: left;
+  height: 1100px;
 `;
 
 function Login() {
