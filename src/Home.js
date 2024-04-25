@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./Home.css";
-import Navbar from "./Navbar";
 import Seokjojeon from "./Components/Images/Deoksugung_Seokjojeon.jpeg";
 import SeokjojeonI from "./Components/Images/Seokjojeon_Inside.jpeg";
 import Jeonggwanheon from "./Components/Images/DeoksugungJeonggwanheon.jpeg";
@@ -42,8 +41,6 @@ function Home() {
 
   return (
     <div className="Home-Container">
-      <Navbar />
-
       <div className="Home">
         <div className="Slide-container">
           <div className="Slide-img-box">

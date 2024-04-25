@@ -14,6 +14,7 @@ import Information from "./Components/Information";
 import { useState, useEffect } from "react";
 // import ReactSwitch from "react-switch";
 import Home from "./Home";
+import Navbar from "./Navbar";
 
 function App() {
   const [modeChange, setModeChange] = useState(false);
@@ -32,24 +33,23 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <div className={modeChange ? "dark-mode" : "light-mode"}>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Information" element={<Information />} />
-          <Route path="/Menu" element={<Menu />} />
-          <Route path="/Products" element={<Products />} />
-          <Route path="/Login" element={<Login />} />
-          <Route path="/EspressoMenu" element={<EspressoMenu />} />
-          <Route path="/LatteMenu" element={<LatteMenu />} />
-          <Route path="/Beverage" element={<Beverage />} />
-          <Route path="/Blended" element={<Blended />} />
-          <Route path="/Tea" element={<Tea />} />
-          <Route path="/Smoothie" element={<Smoothie />} />
-        </Routes>
-        {/* <ReactSwitch onChange={toggleModeChange} checked={modeChange} /> */}
-        <Copyright />
-      </div>
+    <div className={modeChange ? "dark-mode" : "light-mode"}>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Information" element={<Information />} />
+        <Route path="/Menu" element={<Menu />} />
+        <Route path="/Products" element={<Products />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/EspressoMenu" element={<EspressoMenu />} />
+        <Route path="/LatteMenu" element={<LatteMenu />} />
+        <Route path="/Beverage" element={<Beverage />} />
+        <Route path="/Blended" element={<Blended />} />
+        <Route path="/Tea" element={<Tea />} />
+        <Route path="/Smoothie" element={<Smoothie />} />
+      </Routes>
+      {/* <ReactSwitch onChange={toggleModeChange} checked={modeChange} /> */}
+      <Copyright />
     </div>
   );
 }

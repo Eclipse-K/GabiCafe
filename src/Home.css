@@ -1,5 +1,5 @@
 .Home-Container {
-  height: 1200px;
+  height: 1100px;
 }
 
 .Home {
@@ -8,7 +8,6 @@
   align-items: center;
   position: relative;
   width: 100%;
-  height: 1000px;
 }
 
 .Slide-container {
@@ -17,7 +16,7 @@
   justify-items: center;
   align-items: center;
   gap: 100px 10px;
-  width: 90%;
+  width: 80%;
 }
 
 .Slide-img-box,
@@ -34,8 +33,8 @@
   width: 100%;
   height: 400px;
   box-shadow: 10px 10px 10px gray;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
 }
 
 .index-content,
@@ -47,8 +46,8 @@
   height: 400px;
   background-color: white;
   box-shadow: 10px 10px 5px gray;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
 }
 
 .index-content-title,
