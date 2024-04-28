@@ -13,7 +13,6 @@ function Navbar() {
 
   const toggleCollapse = () => {
     setIsCollapsed((prevCollapsed) => {
-      // 현재 상태의 반대 값으로 설정
       const nextState = !prevCollapsed;
 
       // 클릭 후에는 transform 클래스 제거
@@ -23,7 +22,12 @@ function Navbar() {
 
       return nextState;
     });
+
+    // 클릭 후에는 transform 클래스를 즉시 제거
+    setIsHovered(false);
   };
+
+  console.log(isHovered);
 
   const closeOffcanvas = () => {
     setIsCollapsed(false);
