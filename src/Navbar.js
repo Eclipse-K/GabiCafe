@@ -27,8 +27,6 @@ function Navbar() {
     setIsHovered(false);
   };
 
-  console.log(isHovered);
-
   const closeOffcanvas = () => {
     setIsCollapsed(false);
   };

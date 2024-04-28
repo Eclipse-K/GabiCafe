@@ -9,6 +9,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  padding: 10px 40px;
   gap: 30px;
   width: 1300px;
   align-items: center;
@@ -63,7 +64,7 @@
 
 @media all and (min-width: 440px) and (max-width: 1023px) {
   .grid-container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .grid-box {
