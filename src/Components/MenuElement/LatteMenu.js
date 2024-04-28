@@ -4,6 +4,7 @@ import CafeMenuContainer from "./C-Menu-Element/CafeMenuContainer";
 import CafeMenuImgItem from "./C-Menu-Element/CafeMenuImgItem";
 import CafeMenuH1 from "./C-Menu-Element/CafeMenuH1";
 import CafeLink from "./C-Menu-Element/CafeLink";
+import CafeMenuBox from "./C-Menu-Element/CafeMenuBox";
 
 function LatteMenu() {
   // eslint-disable-next-line
@@ -16,15 +17,17 @@ function LatteMenu() {
       </CafeMenuH1>
 
       <CafeMenuContainer>
-        {latImages.map((lat, index) => (
-          <CafeMenuImgItem key={index}>
-            <img
-              src={process.env.PUBLIC_URL + `/images/${lat.latUrl}`}
-              alt={lat.lat_name}
-            />
-            <p>{lat.lat_name}</p>
-          </CafeMenuImgItem>
-        ))}
+        <CafeMenuBox>
+          {latImages.map((lat, index) => (
+            <CafeMenuImgItem key={index}>
+              <img
+                src={process.env.PUBLIC_URL + `/images/${lat.latUrl}`}
+                alt={lat.lat_name}
+              />
+              <p>{lat.lat_name}</p>
+            </CafeMenuImgItem>
+          ))}
+        </CafeMenuBox>
       </CafeMenuContainer>
     </div>
   );

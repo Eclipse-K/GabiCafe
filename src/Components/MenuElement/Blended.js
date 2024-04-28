@@ -4,6 +4,7 @@ import CafeMenuContainer from "./C-Menu-Element/CafeMenuContainer";
 import CafeMenuImgItem from "./C-Menu-Element/CafeMenuImgItem";
 import CafeMenuH1 from "./C-Menu-Element/CafeMenuH1";
 import CafeLink from "./C-Menu-Element/CafeLink";
+import CafeMenuBox from "./C-Menu-Element/CafeMenuBox";
 
 function Blended() {
   // eslint-disable-next-line
@@ -16,15 +17,17 @@ function Blended() {
       </CafeMenuH1>
 
       <CafeMenuContainer>
-        {bleImages.map((blend, index) => (
-          <CafeMenuImgItem key={index}>
-            <img
-              src={process.env.PUBLIC_URL + `/images/${blend.bleUrl}`}
-              alt={blend.ble_name}
-            />
-            <p>{blend.ble_name}</p>
-          </CafeMenuImgItem>
-        ))}
+        <CafeMenuBox>
+          {bleImages.map((blend, index) => (
+            <CafeMenuImgItem key={index}>
+              <img
+                src={process.env.PUBLIC_URL + `/images/${blend.bleUrl}`}
+                alt={blend.ble_name}
+              />
+              <p>{blend.ble_name}</p>
+            </CafeMenuImgItem>
+          ))}
+        </CafeMenuBox>
       </CafeMenuContainer>
     </div>
   );
