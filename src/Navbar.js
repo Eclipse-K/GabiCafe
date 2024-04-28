@@ -12,7 +12,17 @@ function Navbar() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
   const toggleCollapse = () => {
-    setIsCollapsed((prevCollapsed) => !prevCollapsed);
+    setIsCollapsed((prevCollapsed) => {
+      // 현재 상태의 반대 값으로 설정
+      const nextState = !prevCollapsed;
+
+      // 클릭 후에는 transform 클래스 제거
+      if (!nextState) {
+        setIsHovered(false); // transform 클래스가 제거될 때 hover 효과도 해제되어야 합니다.
+      }
+
+      return nextState;
+    });
   };
 
   const closeOffcanvas = () => {
