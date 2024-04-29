@@ -11,29 +11,29 @@ import Tea from "./Components/MenuElement/Tea";
 import Smoothie from "./Components/MenuElement/Smoothie";
 import Copyright from "./Components/Copyright";
 import Information from "./Components/Information";
-import { useState, useEffect } from "react";
 // import ReactSwitch from "react-switch";
 import Home from "./Home";
 import Navbar from "./Navbar";
 
 function App() {
-  const [modeChange, setModeChange] = useState(false);
+  // const [modeChange, setModeChange] = useState(false);
 
-  // 모드 변경 함수
-  // const toggleModeChange = () => {
-  //   setModeChange(!modeChange);
-  // };
+  // // 모드 변경 함수
+  // // const toggleModeChange = () => {
+  // //   setModeChange(!modeChange);
+  // // };
 
-  // 사용자의 환경 설정에 따라 모드를 자동으로 변경
-  useEffect(() => {
-    const prefersDarkMode = window.matchMedia(
-      "(prefers-color-scheme: dark)"
-    ).matches;
-    setModeChange(prefersDarkMode);
-  }, []);
+  // // 사용자의 환경 설정에 따라 모드를 자동으로 변경
+  // useEffect(() => {
+  //   const prefersDarkMode = window.matchMedia(
+  //     "(prefers-color-scheme: dark)"
+  //   ).matches;
+  //   setModeChange(prefersDarkMode);
+  // }, []);
 
   return (
-    <div className={modeChange ? "dark-mode" : "light-mode"}>
+    // <div className={modeChange ? "dark-mode" : "light-mode"}>
+    <div className="App">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

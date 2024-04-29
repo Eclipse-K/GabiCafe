@@ -1,6 +1,6 @@
-.Home-Container {
-  height: 1100px;
-}
+/* .Home-Container {
+  height: 1300px;
+} */
 
 .Home {
   display: flex;
@@ -15,7 +15,8 @@
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   align-items: center;
-  gap: 100px 10px;
+  padding-top: 30px;
+  gap: 56px 0;
   width: 80%;
 }
 
@@ -84,6 +85,7 @@
       "co"
       "fd"
       "for";
+    padding-top: 10px;
   }
 
   .Slide-img-box {
