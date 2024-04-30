@@ -10,6 +10,7 @@ const CafeMenuImgItem = styled.div`
     width: 200px;
     height: 200px;
     border: 2px solid black;
+    border-radius: 20px;
   }
 
   p {
