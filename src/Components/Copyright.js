@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 const CopyFooter = styled.footer`
+  position: relative;
+  bottom: 0;
   display: flex;
   width: 100%;
   height: 60px;

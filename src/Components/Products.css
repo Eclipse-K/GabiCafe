@@ -1,7 +1,3 @@
-.Products {
-  height: 1100px;
-}
-
 .Products h1 {
   text-align: center;
 }
@@ -54,10 +50,6 @@ hr {
 }
 
 @media all and (min-width: 281px) and (max-width: 432px) {
-  .Products {
-    height: 832px;
-  }
-
   .Temporary {
     flex-direction: column;
     align-items: center;

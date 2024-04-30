@@ -3,7 +3,6 @@
 .App {
   position: relative;
   text-align: center;
-  height: 1100px;
 }
 
 /* .light-mode {
@@ -18,7 +17,7 @@
   background-attachment: fixed;
   color: #000000;
 } */
-
+/* 
 @media all and (min-width: 281px) and (max-width: 432px) {
   .App {
     height: 930px;
@@ -29,4 +28,4 @@
   .App {
     height: 1600px;
   }
-}
+} */

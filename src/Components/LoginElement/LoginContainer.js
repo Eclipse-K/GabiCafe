@@ -7,7 +7,6 @@ const LoginContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 400px;
-  height: 900px;
   font-family: "Gugi", cursive;
 
   ${LoginInput} {
