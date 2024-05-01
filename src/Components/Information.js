@@ -3,6 +3,11 @@ import axios from "axios";
 import { marked } from "marked";
 import styled from "styled-components";
 
+const InfoContainer = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
 const InfoStyledContent = styled.div`
   border: 1px solid #ccc;
   margin: 20px 0;
@@ -12,13 +17,12 @@ const InfoStyledContent = styled.div`
   display: flex;
   flex-direction: column;
   height: 950px;
-  width: 80%;
-  transform: translate(10%, 0);
+  width: 64%;
   text-align: left;
   overflow: scroll;
 
   @media all and (min-width: 281px) and (max-width: 432px) {
-    transform: translate(6%, 0);
+    width: 72%;
     height: 700px;
   }
 `;
@@ -51,9 +55,9 @@ function Information() {
   }, []);
 
   return (
-    <div>
+    <InfoContainer>
       <InfoStyledContent dangerouslySetInnerHTML={{ __html: readmeContent }} />
-    </div>
+    </InfoContainer>
   );
 }
 
