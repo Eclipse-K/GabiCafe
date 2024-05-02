@@ -46,8 +46,8 @@
   }
 
   .grid-container {
-    top: 30px;
-    grid-template-columns: repeat(2, 1fr);
+    top: 20px;
+    grid-template-columns: 1fr;
     gap: 10px;
   }
 
