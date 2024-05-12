@@ -14,11 +14,6 @@ const LoginButton = styled(BaseButton)`
   font-size: 18px;
   padding: 16px;
   font-family: "Gugi", cursive;
-
-  &:hover,
-  &:active {
-    background-color: #56c17b;
-  }
 `;
 
 export default LoginButton;

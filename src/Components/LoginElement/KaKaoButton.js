@@ -17,10 +17,6 @@ const StyledButton = styled(LoginButton)`
   ${Icon} {
     margin-right: 8px;
   }
-
-  &:hover {
-    background-color: #f5f401;
-  }
 `;
 
 function KakaoButton({ className }) {
