@@ -1,5 +1,5 @@
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Menu from "./Components/Menu";
 import Products from "./Components/Products";
 import Login from "./Components/Login";
@@ -16,6 +16,8 @@ import Home from "./Home";
 import Navbar from "./Navbar";
 
 function App() {
+  const location = useLocation();
+  const hideNavbar = ["/Login"];
   // const [modeChange, setModeChange] = useState(false);
 
   // // 모드 변경 함수
@@ -34,7 +36,8 @@ function App() {
   return (
     // <div className={modeChange ? "dark-mode" : "light-mode"}>
     <div className="App">
-      <Navbar />
+      {!hideNavbar.includes(location.pathname) && <Navbar />}
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Information" element={<Information />} />

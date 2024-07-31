@@ -14,6 +14,8 @@ const LoginButton = styled(BaseButton)`
   font-size: 18px;
   padding: 16px;
   font-family: "Gugi", cursive;
+  width: 100%;
+  height: 48px;
 `;
 
 export default LoginButton;

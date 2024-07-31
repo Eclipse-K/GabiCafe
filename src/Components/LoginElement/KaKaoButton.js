@@ -13,6 +13,9 @@ const StyledButton = styled(LoginButton)`
   align-items: center;
   background-color: #fee500;
   color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 48px;
+  margin-top: 8px;
 
   ${Icon} {
     margin-right: 8px;
