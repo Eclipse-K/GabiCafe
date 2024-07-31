@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import LoginInput from "./LoginInput";
-import LoginButton from "./LoginButton";
 
 const LoginContainer = styled.div`
   display: flex;
@@ -11,11 +10,6 @@ const LoginContainer = styled.div`
 
   ${LoginInput} {
     margin-bottom: 16px;
-  }
-
-  ${LoginButton} {
-    width: 100%;
-    margin: 8px 0;
   }
 
   @media all and (max-width: 768px) {
